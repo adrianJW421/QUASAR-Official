@@ -1,0 +1,10 @@
+{
+  "format_version": "native_qwen3vl2b_direct_visual_sft_v1",
+  "global_step": 53365,
+  "elapsed_sec": 390359.07665634155,
+  "final_val_metrics": {
+    "loss": 0.0370414753156183,
+    "answer_ce_loss": 0.0370414753156183
+  },
+  "first_batch_audit_path": "${FIRST_BATCH_AUDIT_PATH_21}"
+}

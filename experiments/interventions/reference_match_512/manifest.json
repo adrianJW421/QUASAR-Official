@@ -1,0 +1,38 @@
+{
+  "experiment_id": "I06",
+  "count": 512,
+  "scene_families": 127,
+  "protocol": "exact_micro",
+  "sft_parent_step": 35840,
+  "grpo_step": 2048,
+  "sampling": "fixed historical benefit subset; descriptive, not representative",
+  "arms": {
+    "own": {
+      "predictions": "own.predictions.jsonl",
+      "summary": "own.summary.json"
+    },
+    "zero": {
+      "predictions": "zero.predictions.jsonl",
+      "summary": "zero.summary.json"
+    },
+    "permuted_seed20260811": {
+      "predictions": "permuted_seed20260811.predictions.jsonl",
+      "summary": "permuted_seed20260811.summary.json"
+    },
+    "permuted_seed20260812": {
+      "predictions": "permuted_seed20260812.predictions.jsonl",
+      "summary": "permuted_seed20260812.summary.json"
+    },
+    "permuted_seed20260813": {
+      "predictions": "permuted_seed20260813.predictions.jsonl",
+      "summary": "permuted_seed20260813.summary.json"
+    }
+  },
+  "runtime_config": "configs/evaluation/I06_runtime.json",
+  "retained_runtime_validation": "retained_runtime_validation.json",
+  "answer_origin": {
+    "own": "retained B repeat-0 responses",
+    "zero": "retained B repeat-0 responses",
+    "permuted": "512-specific September runtime records; not reused 5598 normal predictions"
+  }
+}

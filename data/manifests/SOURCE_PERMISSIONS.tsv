@@ -1,0 +1,14 @@
+asset	terms	status	official_url	public_delivery	notes
+VLM-3R training QA	Apache-2.0	QA_REDISTRIBUTABLE	https://huggingface.co/datasets/Journey9ni/VLM-3R-DATA/blob/main/README.md	data/annotations/sft_426916_qa.jsonl;data/annotations/validation_17651_qa.jsonl	Only QA projection; historical labels preserved
+ScanQA QA	CC-BY-NC-SA-3.0	QA_REDISTRIBUTABLE_NONCOMMERCIAL	https://github.com/ATR-DBI/ScanQA/blob/main/LICENSE	data/annotations/sft_426916_qa.jsonl	Retain attribution, notices and same license
+SQA3D QA	CC-BY-4.0	QA_REDISTRIBUTABLE	https://github.com/SilongYong/SQA3D#license	data/annotations/sft_426916_qa.jsonl	Data license distinct from code license
+MSQA ScanNet QA	CC-BY-NC-SA-4.0	QA_REDISTRIBUTABLE_NONCOMMERCIAL	https://github.com/MSR3D/MSR3D#-license	data/annotations/sft_426916_qa.jsonl	Data README explicitly states CC; code Apache does not replace it
+VSI-Bench QA	Apache-2.0	QA_REDISTRIBUTABLE	https://huggingface.co/datasets/nyu-visionx/VSI-Bench/blob/main/README.md	data/annotations/vsi_m01_5130_scoring.jsonl	M01 raw-video QA/options version only
+VSTI evaluation QA	UNKNOWN	BLOCKED_PUBLIC_QA	https://huggingface.co/datasets/Journey9ni/vstibench/blob/main/README.md	member and donor IDs only	No dataset license in official card; do not infer from code or training-QA license
+ScanNet media/depth/pose/scans	ScanNet Terms of Use	AUTHORIZED_LOCAL_ONLY	https://kaldir.vc.in.tum.de/scannet/ScanNet_TOS.pdf	data/PREPARATION.md	Noncommercial research; recipients must accept terms
+ScanNet++ media/scans	ScanNet++ Terms of Use	AUTHORIZED_LOCAL_ONLY	https://scannetpp.mlsg.cit.tum.de/scannetpp/static/scannetpp-terms-of-use.pdf	data/PREPARATION.md	Recipients must sign terms; public media hosting not authorized
+ARKitScenes media	Apple ARKitScenes license	UPSTREAM_ACQUISITION	https://github.com/apple/ARKitScenes/blob/main/LICENSE	data/ACQUISITION.md	Retain Apple conditions; public dataset card not an overriding license
+CUT3R code/model	CC-BY-NC-SA-4.0	UPSTREAM_SEPARATE	https://github.com/CUT3R/CUT3R/blob/main/LICENSE	quasar-export-geometry	Fixed-sample RGB reconstruction verified; commit 8bc15dc matches the historical Python sources file by file
+Qwen3-VL-8B-Instruct	Apache-2.0	UPSTREAM_SEPARATE	https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct	model supplied by caller	Do not package entire weights
+Original reference/object/training annotation	Component-specific / UNKNOWN	REQUIRED_ACCESS_AND_GENERATION_PENDING		data/GENERATION.md	Retain necessary original annotation; source permissions and historical target/coordinate conversion incomplete
+Computed geometry/features/tensor caches	Source-specific local generation	EXCLUDED_GENERATE_LOCALLY		data/GENERATION.md	Excluded from source and weight downloads; historical originals are not distributed

@@ -1,0 +1,55 @@
+{
+  "experiment_id": "M01",
+  "benchmark": "VSI",
+  "protocol_id": "vsi_5130_8task",
+  "scorer_protocol": "vsi_8task",
+  "count": 5130,
+  "input_interface": "historical_raw_video",
+  "question_type_counts": {
+    "object_counting": 565,
+    "object_size_estimation": 953,
+    "room_size_estimation": 288,
+    "object_abs_distance": 834,
+    "object_rel_direction_hard": 373,
+    "object_rel_direction_medium": 378,
+    "object_rel_direction_easy": 217,
+    "object_rel_distance": 710,
+    "obj_appearance_order": 618,
+    "route_planning": 194
+  },
+  "answer_parsing": "Whitespace-normalized first word, strip trailing periods; choice letters ignore case.",
+  "numeric_metric": "MRA:.5:.95:.05",
+  "MRA_confidence_thresholds": [
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8,
+    0.85,
+    0.8999999999999999,
+    0.95
+  ],
+  "direction_aggregation": "Equal mean of easy, medium and hard subtype means",
+  "overall_aggregation": "Equal mean of the eight task means",
+  "empty_or_unparseable_answers": "Score zero and retain in denominator",
+  "options_vs_final": {
+    "different_lists": 671,
+    "easy_direction": 217,
+    "medium_direction": 378,
+    "route_planning": 76
+  },
+  "original_questions_and_labels_bundled": false,
+  "model_revision": null,
+  "actual_sampled_frames": null,
+  "actual_resolution": null,
+  "historical_environment_lock": null,
+  "full_decoding_configuration": null,
+  "remaining_unknowns": [
+    "Resolved model snapshot/revision",
+    "March 17 exact loader and dependency versions",
+    "Actual sampled frames, fps and resolution",
+    "Full decoding configuration and actual dtype"
+  ]
+}

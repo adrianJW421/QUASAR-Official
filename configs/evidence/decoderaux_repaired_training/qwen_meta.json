@@ -1,0 +1,71 @@
+{
+  "model_type": "qwen3_vl",
+  "hidden_size": 4096,
+  "spatial_merge_size": 2,
+  "max_pixels": 50176,
+  "spatial_queries": {
+    "count": 4,
+    "tokens": [
+      "<|spatial_query_0|>",
+      "<|spatial_query_1|>",
+      "<|spatial_query_2|>",
+      "<|spatial_query_3|>"
+    ],
+    "token_ids": [
+      151669,
+      151670,
+      151671,
+      151672
+    ],
+    "added_special_tokens": 4,
+    "tokenizer_size": 151673,
+    "embedding_rows_before_resize": 151936,
+    "embedding_rows_after_resize": 151936,
+    "input_embedding_policy": "replace token embedding with trainable spatial_query_role in model forward"
+  },
+  "numeric_scaffold": {
+    "mode": "none",
+    "tokens": [],
+    "token_ids": [],
+    "coarse_bins": 16,
+    "fine_bins": 16,
+    "delta_policy": "train/save additive input embedding and LM-head rows for scaffold tokens only"
+  },
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "target_modules": [
+      "down_proj",
+      "gate_proj",
+      "k_proj",
+      "o_proj",
+      "q_proj",
+      "up_proj",
+      "v_proj"
+    ],
+    "replaced_module_count": 252,
+    "first_replaced_modules": [
+      "model.language_model.layers.0.self_attn.q_proj",
+      "model.language_model.layers.0.self_attn.k_proj",
+      "model.language_model.layers.0.self_attn.v_proj",
+      "model.language_model.layers.0.self_attn.o_proj",
+      "model.language_model.layers.0.mlp.gate_proj",
+      "model.language_model.layers.0.mlp.up_proj",
+      "model.language_model.layers.0.mlp.down_proj",
+      "model.language_model.layers.1.self_attn.q_proj",
+      "model.language_model.layers.1.self_attn.k_proj",
+      "model.language_model.layers.1.self_attn.v_proj",
+      "model.language_model.layers.1.self_attn.o_proj",
+      "model.language_model.layers.1.mlp.gate_proj",
+      "model.language_model.layers.1.mlp.up_proj",
+      "model.language_model.layers.1.mlp.down_proj",
+      "model.language_model.layers.2.self_attn.q_proj",
+      "model.language_model.layers.2.self_attn.k_proj",
+      "model.language_model.layers.2.self_attn.v_proj",
+      "model.language_model.layers.2.self_attn.o_proj",
+      "model.language_model.layers.2.mlp.gate_proj",
+      "model.language_model.layers.2.mlp.up_proj"
+    ]
+  }
+}

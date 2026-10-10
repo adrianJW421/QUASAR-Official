@@ -1,0 +1,2878 @@
+{
+  "dataset": "vsi",
+  "direction": "hard_off-current",
+  "rows": 5130,
+  "bootstrap": {
+    "method": "paired scene-cluster bootstrap",
+    "repetitions": 5000,
+    "seed": 20260812
+  },
+  "comparisons": {
+    "all::all": {
+      "bootstrap": {
+        "cluster_count": 288,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.01756070170033088,
+              -0.003021891977017828
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0102975442848654,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::obj_appearance_order": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005681616698903982,
+              0.04520922320259402
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_abs_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02834164085688374,
+              -0.0017214973813845704
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_counting": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020801813752870293,
+              0.005592407710388052
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_easy": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.051548811770969497,
+              0.024390243902439046
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01382488479262678,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_hard": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.025789261307685992,
+              0.05128676470588232
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010723860589812229,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_medium": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.042106002365464135,
+              0.02186092595928659
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.010582010582010581,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026690051020408223,
+              0.020408908088782863
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.0065859762939266655,
+              0.006734804791481981
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::room_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::route_planning": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03482731690385284,
+              0.025641025641025605
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.012668051625591325,
+              0.0012810353950791365
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005516569200778698,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "obj_appearance_order": 618,
+          "object_abs_distance": 834,
+          "object_counting": 565,
+          "object_rel_direction_easy": 217,
+          "object_rel_direction_hard": 373,
+          "object_rel_direction_medium": 378,
+          "object_rel_distance": 710,
+          "object_size_estimation": 953,
+          "room_size_estimation": 288,
+          "route_planning": 194
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 5130,
+      "group": "all",
+      "group_kind": "all"
+    },
+    "question_type::obj_appearance_order": {
+      "bootstrap": {
+        "cluster_count": 32,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005485663803900459,
+              0.04427715394836253
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::obj_appearance_order": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005485663803900459,
+              0.04427715394836253
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005485663803900459,
+              0.04427715394836253
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "obj_appearance_order": 618
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 618,
+      "group": "obj_appearance_order",
+      "group_kind": "question_type"
+    },
+    "question_type::object_abs_distance": {
+      "bootstrap": {
+        "cluster_count": 221,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02857235742151143,
+              -0.0016565238558905668
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_abs_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02857235742151143,
+              -0.0016565238558905668
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02857235742151143,
+              -0.0016565238558905668
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_abs_distance": 834
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 834,
+      "group": "object_abs_distance",
+      "group_kind": "question_type"
+    },
+    "question_type::object_counting": {
+      "bootstrap": {
+        "cluster_count": 202,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020422724519158154,
+              0.005366215665867017
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_counting": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020422724519158154,
+              0.005366215665867017
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020422724519158154,
+              0.005366215665867017
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_counting": 565
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 565,
+      "group": "object_counting",
+      "group_kind": "question_type"
+    },
+    "question_type::object_rel_direction_easy": {
+      "bootstrap": {
+        "cluster_count": 76,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.05092592592592593,
+              0.022935779816513735
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01382488479262678,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_easy": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.05092592592592593,
+              0.022935779816513735
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01382488479262678,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.05092592592592593,
+              0.022935779816513735
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01382488479262678,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_direction_easy": 217
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 217,
+      "group": "object_rel_direction_easy",
+      "group_kind": "question_type"
+    },
+    "question_type::object_rel_direction_hard": {
+      "bootstrap": {
+        "cluster_count": 105,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02645678076712554,
+              0.0507466474732935
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010723860589812229,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_hard": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02645678076712554,
+              0.0507466474732935
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010723860589812229,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02645678076712554,
+              0.0507466474732935
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010723860589812229,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_direction_hard": 373
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 373,
+      "group": "object_rel_direction_hard",
+      "group_kind": "question_type"
+    },
+    "question_type::object_rel_direction_medium": {
+      "bootstrap": {
+        "cluster_count": 107,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.04166666666666663,
+              0.02110817941952503
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.010582010582010581,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_medium": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.04166666666666663,
+              0.02110817941952503
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.010582010582010581,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.04166666666666663,
+              0.02110817941952503
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.010582010582010581,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_direction_medium": 378
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 378,
+      "group": "object_rel_direction_medium",
+      "group_kind": "question_type"
+    },
+    "question_type::object_rel_distance": {
+      "bootstrap": {
+        "cluster_count": 110,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026281089273734706,
+              0.02122076291141221
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026281089273734706,
+              0.02122076291141221
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026281089273734706,
+              0.02122076291141221
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_distance": 710
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 710,
+      "group": "object_rel_distance",
+      "group_kind": "question_type"
+    },
+    "question_type::object_size_estimation": {
+      "bootstrap": {
+        "cluster_count": 278,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.006660284189056712,
+              0.006603489154195414
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.006660284189056712,
+              0.006603489154195414
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.006660284189056712,
+              0.006603489154195414
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_size_estimation": 953
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 953,
+      "group": "object_size_estimation",
+      "group_kind": "question_type"
+    },
+    "question_type::room_size_estimation": {
+      "bootstrap": {
+        "cluster_count": 288,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::room_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "room_size_estimation": 288
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 288,
+      "group": "room_size_estimation",
+      "group_kind": "question_type"
+    },
+    "question_type::route_planning": {
+      "bootstrap": {
+        "cluster_count": 194,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03608247422680411,
+              0.02577319587628868
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::route_planning": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03608247422680411,
+              0.02577319587628868
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03608247422680411,
+              0.02577319587628868
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "route_planning": 194
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 194,
+      "group": "route_planning",
+      "group_kind": "question_type"
+    },
+    "subgroup::rest_3968": {
+      "bootstrap": {
+        "cluster_count": 288,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.019683513604296408,
+              -0.004397985877114092
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.012110783918120704,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::obj_appearance_order": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005681616698903982,
+              0.04520922320259402
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_abs_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02834164085688374,
+              -0.0017214973813845704
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_counting": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020801813752870293,
+              0.005592407710388052
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026690051020408223,
+              0.020408908088782863
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.0065859762939266655,
+              0.006734804791481981
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::room_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.012935795559161542,
+              0.0003916773723710576
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.006123991935483297,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "obj_appearance_order": 618,
+          "object_abs_distance": 834,
+          "object_counting": 565,
+          "object_rel_distance": 710,
+          "object_size_estimation": 953,
+          "room_size_estimation": 288
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 3968,
+      "group": "rest_3968",
+      "group_kind": "subgroup"
+    },
+    "subgroup::semantic_1162": {
+      "bootstrap": {
+        "cluster_count": 233,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.024708688493276926,
+              0.015024794300702044
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.004857825385099712,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_easy": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.050634369713585654,
+              0.024633590206311305
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01382488479262678,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_hard": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026042283767772477,
+              0.050281792212543766
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010723860589812229,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_medium": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.04249442468808388,
+              0.022294328007685993
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.010582010582010581,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::route_planning": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.0357142857142857,
+              0.025255729887709532
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02483003831438682,
+              0.019777291939302857
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0034423407917384408,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_direction_easy": 217,
+          "object_rel_direction_hard": 373,
+          "object_rel_direction_medium": 378,
+          "route_planning": 194
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 1162,
+      "group": "semantic_1162",
+      "group_kind": "subgroup"
+    },
+    "task_group::obj_appearance_order": {
+      "bootstrap": {
+        "cluster_count": 32,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005485663803900459,
+              0.04427715394836253
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::obj_appearance_order": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005485663803900459,
+              0.04427715394836253
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              0.005485663803900459,
+              0.04427715394836253
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024271844660194164,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "obj_appearance_order": 618
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 618,
+      "group": "obj_appearance_order",
+      "group_kind": "task_group"
+    },
+    "task_group::object_abs_distance": {
+      "bootstrap": {
+        "cluster_count": 221,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02857235742151143,
+              -0.0016565238558905668
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_abs_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02857235742151143,
+              -0.0016565238558905668
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02857235742151143,
+              -0.0016565238558905668
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.014988009592326046,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_abs_distance": 834
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 834,
+      "group": "object_abs_distance",
+      "group_kind": "task_group"
+    },
+    "task_group::object_counting": {
+      "bootstrap": {
+        "cluster_count": 202,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020422724519158154,
+              0.005366215665867017
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_counting": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020422724519158154,
+              0.005366215665867017
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.020422724519158154,
+              0.005366215665867017
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007256637168141622,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_counting": 565
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 565,
+      "group": "object_counting",
+      "group_kind": "task_group"
+    },
+    "task_group::object_rel_direction": {
+      "bootstrap": {
+        "cluster_count": 120,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.028017742545605,
+              0.020057121015077423
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.004561011594941489,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_easy": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.050928287981859416,
+              0.024390243902439046
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01382488479262678,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_hard": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026738618473268534,
+              0.05128378378378369
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010723860589812229,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_direction_medium": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.040817716732469596,
+              0.021449162558736197
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.010582010582010581,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.02734143060737567,
+              0.02318237682280153
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0030991735537190257,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_direction_easy": 217,
+          "object_rel_direction_hard": 373,
+          "object_rel_direction_medium": 378
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 968,
+      "group": "object_rel_direction",
+      "group_kind": "task_group"
+    },
+    "task_group::object_rel_distance": {
+      "bootstrap": {
+        "cluster_count": 110,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026281089273734706,
+              0.02122076291141221
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_rel_distance": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026281089273734706,
+              0.02122076291141221
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.026281089273734706,
+              0.02122076291141221
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0028169014084507005,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_rel_distance": 710
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 710,
+      "group": "object_rel_distance",
+      "group_kind": "task_group"
+    },
+    "task_group::object_size_estimation": {
+      "bootstrap": {
+        "cluster_count": 278,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.006660284189056712,
+              0.006603489154195414
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::object_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.006660284189056712,
+              0.006603489154195414
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.006660284189056712,
+              0.006603489154195414
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 2.220446049250313e-16,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "object_size_estimation": 953
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 953,
+      "group": "object_size_estimation",
+      "group_kind": "task_group"
+    },
+    "task_group::room_size_estimation": {
+      "bootstrap": {
+        "cluster_count": 288,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::room_size_estimation": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.09965277777777715,
+              -0.04548611111111067
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.07187499999999991,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "room_size_estimation": 288
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 288,
+      "group": "room_size_estimation",
+      "group_kind": "task_group"
+    },
+    "task_group::route_planning": {
+      "bootstrap": {
+        "cluster_count": 194,
+        "direction": "hard_off-current",
+        "intervals": {
+          "primary_score": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03608247422680411,
+              0.02577319587628868
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "qtype::route_planning": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03608247422680411,
+              0.02577319587628868
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          },
+          "row_weighted_mean": {
+            "available_repetitions": 5000,
+            "ci95": [
+              -0.03608247422680411,
+              0.02577319587628868
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005154639175257714,
+            "status": "available",
+            "unavailable_repetitions": 0
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "qtype_counts": {
+          "route_planning": 194
+        },
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260812
+      },
+      "count": 194,
+      "group": "route_planning",
+      "group_kind": "task_group"
+    }
+  },
+  "paired_change_counts": {
+    "improved": 453,
+    "tied": 4132,
+    "worsened": 545
+  },
+  "arms": {
+    "current": {
+      "summaries": {
+        "all::all": {
+          "count": 5130,
+          "group": "all",
+          "group_kind": "all",
+          "missing_tasks": [],
+          "present_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "primary_metric": "VSI eight-task macro",
+          "primary_score": 0.6537020953090076,
+          "qtype_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_direction_easy": 217,
+            "object_rel_direction_hard": 373,
+            "object_rel_direction_medium": 378,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288,
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.5954692556634305,
+            "object_abs_distance": 0.5404076738609104,
+            "object_counting": 0.7295575221238935,
+            "object_rel_direction_easy": 0.8433179723502304,
+            "object_rel_direction_hard": 0.7479892761394102,
+            "object_rel_direction_medium": 0.8201058201058201,
+            "object_rel_distance": 0.6577464788732394,
+            "object_size_estimation": 0.7582371458551918,
+            "room_size_estimation": 0.7062500000000005,
+            "route_planning": 0.4381443298969072
+          },
+          "row_weighted_mean": 0.6785380116959102,
+          "task_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_direction": 968,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288,
+            "route_planning": 194
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.5954692556634305,
+            "object_abs_distance": 0.5404076738609104,
+            "object_counting": 0.7295575221238935,
+            "object_rel_direction": 0.8038043561984868,
+            "object_rel_distance": 0.6577464788732394,
+            "object_size_estimation": 0.7582371458551918,
+            "room_size_estimation": 0.7062500000000005,
+            "route_planning": 0.4381443298969072
+          }
+        },
+        "question_type::obj_appearance_order": {
+          "count": 618,
+          "group": "obj_appearance_order",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "present_tasks": [
+            "obj_appearance_order"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.5954692556634305,
+          "qtype_counts": {
+            "obj_appearance_order": 618
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.5954692556634305
+          },
+          "row_weighted_mean": 0.5954692556634305,
+          "task_counts": {
+            "obj_appearance_order": 618
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.5954692556634305
+          }
+        },
+        "question_type::object_abs_distance": {
+          "count": 834,
+          "group": "object_abs_distance",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_abs_distance"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.5404076738609104,
+          "qtype_counts": {
+            "object_abs_distance": 834
+          },
+          "qtype_scores": {
+            "object_abs_distance": 0.5404076738609104
+          },
+          "row_weighted_mean": 0.5404076738609104,
+          "task_counts": {
+            "object_abs_distance": 834
+          },
+          "task_scores": {
+            "object_abs_distance": 0.5404076738609104
+          }
+        },
+        "question_type::object_counting": {
+          "count": 565,
+          "group": "object_counting",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_counting"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.7295575221238935,
+          "qtype_counts": {
+            "object_counting": 565
+          },
+          "qtype_scores": {
+            "object_counting": 0.7295575221238935
+          },
+          "row_weighted_mean": 0.7295575221238935,
+          "task_counts": {
+            "object_counting": 565
+          },
+          "task_scores": {
+            "object_counting": 0.7295575221238935
+          }
+        },
+        "question_type::object_rel_direction_easy": {
+          "count": 217,
+          "group": "object_rel_direction_easy",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.8433179723502304,
+          "qtype_counts": {
+            "object_rel_direction_easy": 217
+          },
+          "qtype_scores": {
+            "object_rel_direction_easy": 0.8433179723502304
+          },
+          "row_weighted_mean": 0.8433179723502304,
+          "task_counts": {
+            "object_rel_direction": 217
+          },
+          "task_scores": {
+            "object_rel_direction": 0.8433179723502304
+          }
+        },
+        "question_type::object_rel_direction_hard": {
+          "count": 373,
+          "group": "object_rel_direction_hard",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.7479892761394102,
+          "qtype_counts": {
+            "object_rel_direction_hard": 373
+          },
+          "qtype_scores": {
+            "object_rel_direction_hard": 0.7479892761394102
+          },
+          "row_weighted_mean": 0.7479892761394102,
+          "task_counts": {
+            "object_rel_direction": 373
+          },
+          "task_scores": {
+            "object_rel_direction": 0.7479892761394102
+          }
+        },
+        "question_type::object_rel_direction_medium": {
+          "count": 378,
+          "group": "object_rel_direction_medium",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.8201058201058201,
+          "qtype_counts": {
+            "object_rel_direction_medium": 378
+          },
+          "qtype_scores": {
+            "object_rel_direction_medium": 0.8201058201058201
+          },
+          "row_weighted_mean": 0.8201058201058201,
+          "task_counts": {
+            "object_rel_direction": 378
+          },
+          "task_scores": {
+            "object_rel_direction": 0.8201058201058201
+          }
+        },
+        "question_type::object_rel_distance": {
+          "count": 710,
+          "group": "object_rel_distance",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_distance"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.6577464788732394,
+          "qtype_counts": {
+            "object_rel_distance": 710
+          },
+          "qtype_scores": {
+            "object_rel_distance": 0.6577464788732394
+          },
+          "row_weighted_mean": 0.6577464788732394,
+          "task_counts": {
+            "object_rel_distance": 710
+          },
+          "task_scores": {
+            "object_rel_distance": 0.6577464788732394
+          }
+        },
+        "question_type::object_size_estimation": {
+          "count": 953,
+          "group": "object_size_estimation",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_size_estimation"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.7582371458551918,
+          "qtype_counts": {
+            "object_size_estimation": 953
+          },
+          "qtype_scores": {
+            "object_size_estimation": 0.7582371458551918
+          },
+          "row_weighted_mean": 0.7582371458551918,
+          "task_counts": {
+            "object_size_estimation": 953
+          },
+          "task_scores": {
+            "object_size_estimation": 0.7582371458551918
+          }
+        },
+        "question_type::room_size_estimation": {
+          "count": 288,
+          "group": "room_size_estimation",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "room_size_estimation"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.7062500000000005,
+          "qtype_counts": {
+            "room_size_estimation": 288
+          },
+          "qtype_scores": {
+            "room_size_estimation": 0.7062500000000005
+          },
+          "row_weighted_mean": 0.7062500000000005,
+          "task_counts": {
+            "room_size_estimation": 288
+          },
+          "task_scores": {
+            "room_size_estimation": 0.7062500000000005
+          }
+        },
+        "question_type::route_planning": {
+          "count": 194,
+          "group": "route_planning",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "route_planning"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.4381443298969072,
+          "qtype_counts": {
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "route_planning": 0.4381443298969072
+          },
+          "row_weighted_mean": 0.4381443298969072,
+          "task_counts": {
+            "route_planning": 194
+          },
+          "task_scores": {
+            "route_planning": 0.4381443298969072
+          }
+        },
+        "subgroup::rest_3968": {
+          "count": 3968,
+          "group": "rest_3968",
+          "group_kind": "subgroup",
+          "missing_tasks": [
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "present_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "obj_appearance_order"
+          ],
+          "primary_metric": "VSI macro over task groups present in this subset",
+          "primary_score": 0.6646113460627777,
+          "qtype_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.5954692556634305,
+            "object_abs_distance": 0.5404076738609104,
+            "object_counting": 0.7295575221238935,
+            "object_rel_distance": 0.6577464788732394,
+            "object_size_estimation": 0.7582371458551918,
+            "room_size_estimation": 0.7062500000000005
+          },
+          "row_weighted_mean": 0.6612651209677457,
+          "task_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.5954692556634305,
+            "object_abs_distance": 0.5404076738609104,
+            "object_counting": 0.7295575221238935,
+            "object_rel_distance": 0.6577464788732394,
+            "object_size_estimation": 0.7582371458551918,
+            "room_size_estimation": 0.7062500000000005
+          }
+        },
+        "subgroup::semantic_1162": {
+          "count": 1162,
+          "group": "semantic_1162",
+          "group_kind": "subgroup",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "primary_metric": "VSI macro over task groups present in this subset",
+          "primary_score": 0.620974343047697,
+          "qtype_counts": {
+            "object_rel_direction_easy": 217,
+            "object_rel_direction_hard": 373,
+            "object_rel_direction_medium": 378,
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "object_rel_direction_easy": 0.8433179723502304,
+            "object_rel_direction_hard": 0.7479892761394102,
+            "object_rel_direction_medium": 0.8201058201058201,
+            "route_planning": 0.4381443298969072
+          },
+          "row_weighted_mean": 0.7375215146299484,
+          "task_counts": {
+            "object_rel_direction": 968,
+            "route_planning": 194
+          },
+          "task_scores": {
+            "object_rel_direction": 0.8038043561984868,
+            "route_planning": 0.4381443298969072
+          }
+        },
+        "task_group::obj_appearance_order": {
+          "count": 618,
+          "group": "obj_appearance_order",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "present_tasks": [
+            "obj_appearance_order"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.5954692556634305,
+          "qtype_counts": {
+            "obj_appearance_order": 618
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.5954692556634305
+          },
+          "row_weighted_mean": 0.5954692556634305,
+          "task_counts": {
+            "obj_appearance_order": 618
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.5954692556634305
+          }
+        },
+        "task_group::object_abs_distance": {
+          "count": 834,
+          "group": "object_abs_distance",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_abs_distance"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.5404076738609104,
+          "qtype_counts": {
+            "object_abs_distance": 834
+          },
+          "qtype_scores": {
+            "object_abs_distance": 0.5404076738609104
+          },
+          "row_weighted_mean": 0.5404076738609104,
+          "task_counts": {
+            "object_abs_distance": 834
+          },
+          "task_scores": {
+            "object_abs_distance": 0.5404076738609104
+          }
+        },
+        "task_group::object_counting": {
+          "count": 565,
+          "group": "object_counting",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_counting"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.7295575221238935,
+          "qtype_counts": {
+            "object_counting": 565
+          },
+          "qtype_scores": {
+            "object_counting": 0.7295575221238935
+          },
+          "row_weighted_mean": 0.7295575221238935,
+          "task_counts": {
+            "object_counting": 565
+          },
+          "task_scores": {
+            "object_counting": 0.7295575221238935
+          }
+        },
+        "task_group::object_rel_direction": {
+          "count": 968,
+          "group": "object_rel_direction",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.8038043561984868,
+          "qtype_counts": {
+            "object_rel_direction_easy": 217,
+            "object_rel_direction_hard": 373,
+            "object_rel_direction_medium": 378
+          },
+          "qtype_scores": {
+            "object_rel_direction_easy": 0.8433179723502304,
+            "object_rel_direction_hard": 0.7479892761394102,
+            "object_rel_direction_medium": 0.8201058201058201
+          },
+          "row_weighted_mean": 0.7975206611570248,
+          "task_counts": {
+            "object_rel_direction": 968
+          },
+          "task_scores": {
+            "object_rel_direction": 0.8038043561984868
+          }
+        },
+        "task_group::object_rel_distance": {
+          "count": 710,
+          "group": "object_rel_distance",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_distance"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.6577464788732394,
+          "qtype_counts": {
+            "object_rel_distance": 710
+          },
+          "qtype_scores": {
+            "object_rel_distance": 0.6577464788732394
+          },
+          "row_weighted_mean": 0.6577464788732394,
+          "task_counts": {
+            "object_rel_distance": 710
+          },
+          "task_scores": {
+            "object_rel_distance": 0.6577464788732394
+          }
+        },
+        "task_group::object_size_estimation": {
+          "count": 953,
+          "group": "object_size_estimation",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_size_estimation"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.7582371458551918,
+          "qtype_counts": {
+            "object_size_estimation": 953
+          },
+          "qtype_scores": {
+            "object_size_estimation": 0.7582371458551918
+          },
+          "row_weighted_mean": 0.7582371458551918,
+          "task_counts": {
+            "object_size_estimation": 953
+          },
+          "task_scores": {
+            "object_size_estimation": 0.7582371458551918
+          }
+        },
+        "task_group::room_size_estimation": {
+          "count": 288,
+          "group": "room_size_estimation",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "room_size_estimation"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.7062500000000005,
+          "qtype_counts": {
+            "room_size_estimation": 288
+          },
+          "qtype_scores": {
+            "room_size_estimation": 0.7062500000000005
+          },
+          "row_weighted_mean": 0.7062500000000005,
+          "task_counts": {
+            "room_size_estimation": 288
+          },
+          "task_scores": {
+            "room_size_estimation": 0.7062500000000005
+          }
+        },
+        "task_group::route_planning": {
+          "count": 194,
+          "group": "route_planning",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "route_planning"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.4381443298969072,
+          "qtype_counts": {
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "route_planning": 0.4381443298969072
+          },
+          "row_weighted_mean": 0.4381443298969072,
+          "task_counts": {
+            "route_planning": 194
+          },
+          "task_scores": {
+            "route_planning": 0.4381443298969072
+          }
+        }
+      }
+    },
+    "hard_off": {
+      "summaries": {
+        "all::all": {
+          "count": 5130,
+          "group": "all",
+          "group_kind": "all",
+          "missing_tasks": [],
+          "present_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "primary_metric": "VSI eight-task macro",
+          "primary_score": 0.6434045510241422,
+          "qtype_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_direction_easy": 217,
+            "object_rel_direction_hard": 373,
+            "object_rel_direction_medium": 378,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288,
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.6197411003236246,
+            "object_abs_distance": 0.5254196642685843,
+            "object_counting": 0.7223008849557518,
+            "object_rel_direction_easy": 0.8294930875576036,
+            "object_rel_direction_hard": 0.7587131367292225,
+            "object_rel_direction_medium": 0.8095238095238095,
+            "object_rel_distance": 0.6549295774647887,
+            "object_size_estimation": 0.758237145855192,
+            "room_size_estimation": 0.6343750000000006,
+            "route_planning": 0.4329896907216495
+          },
+          "row_weighted_mean": 0.6730214424951315,
+          "task_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_direction": 968,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288,
+            "route_planning": 194
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.6197411003236246,
+            "object_abs_distance": 0.5254196642685843,
+            "object_counting": 0.7223008849557518,
+            "object_rel_direction": 0.7992433446035453,
+            "object_rel_distance": 0.6549295774647887,
+            "object_size_estimation": 0.758237145855192,
+            "room_size_estimation": 0.6343750000000006,
+            "route_planning": 0.4329896907216495
+          }
+        },
+        "question_type::obj_appearance_order": {
+          "count": 618,
+          "group": "obj_appearance_order",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "present_tasks": [
+            "obj_appearance_order"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.6197411003236246,
+          "qtype_counts": {
+            "obj_appearance_order": 618
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.6197411003236246
+          },
+          "row_weighted_mean": 0.6197411003236246,
+          "task_counts": {
+            "obj_appearance_order": 618
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.6197411003236246
+          }
+        },
+        "question_type::object_abs_distance": {
+          "count": 834,
+          "group": "object_abs_distance",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_abs_distance"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.5254196642685843,
+          "qtype_counts": {
+            "object_abs_distance": 834
+          },
+          "qtype_scores": {
+            "object_abs_distance": 0.5254196642685843
+          },
+          "row_weighted_mean": 0.5254196642685843,
+          "task_counts": {
+            "object_abs_distance": 834
+          },
+          "task_scores": {
+            "object_abs_distance": 0.5254196642685843
+          }
+        },
+        "question_type::object_counting": {
+          "count": 565,
+          "group": "object_counting",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_counting"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.7223008849557518,
+          "qtype_counts": {
+            "object_counting": 565
+          },
+          "qtype_scores": {
+            "object_counting": 0.7223008849557518
+          },
+          "row_weighted_mean": 0.7223008849557518,
+          "task_counts": {
+            "object_counting": 565
+          },
+          "task_scores": {
+            "object_counting": 0.7223008849557518
+          }
+        },
+        "question_type::object_rel_direction_easy": {
+          "count": 217,
+          "group": "object_rel_direction_easy",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.8294930875576036,
+          "qtype_counts": {
+            "object_rel_direction_easy": 217
+          },
+          "qtype_scores": {
+            "object_rel_direction_easy": 0.8294930875576036
+          },
+          "row_weighted_mean": 0.8294930875576036,
+          "task_counts": {
+            "object_rel_direction": 217
+          },
+          "task_scores": {
+            "object_rel_direction": 0.8294930875576036
+          }
+        },
+        "question_type::object_rel_direction_hard": {
+          "count": 373,
+          "group": "object_rel_direction_hard",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.7587131367292225,
+          "qtype_counts": {
+            "object_rel_direction_hard": 373
+          },
+          "qtype_scores": {
+            "object_rel_direction_hard": 0.7587131367292225
+          },
+          "row_weighted_mean": 0.7587131367292225,
+          "task_counts": {
+            "object_rel_direction": 373
+          },
+          "task_scores": {
+            "object_rel_direction": 0.7587131367292225
+          }
+        },
+        "question_type::object_rel_direction_medium": {
+          "count": 378,
+          "group": "object_rel_direction_medium",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.8095238095238095,
+          "qtype_counts": {
+            "object_rel_direction_medium": 378
+          },
+          "qtype_scores": {
+            "object_rel_direction_medium": 0.8095238095238095
+          },
+          "row_weighted_mean": 0.8095238095238095,
+          "task_counts": {
+            "object_rel_direction": 378
+          },
+          "task_scores": {
+            "object_rel_direction": 0.8095238095238095
+          }
+        },
+        "question_type::object_rel_distance": {
+          "count": 710,
+          "group": "object_rel_distance",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_distance"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.6549295774647887,
+          "qtype_counts": {
+            "object_rel_distance": 710
+          },
+          "qtype_scores": {
+            "object_rel_distance": 0.6549295774647887
+          },
+          "row_weighted_mean": 0.6549295774647887,
+          "task_counts": {
+            "object_rel_distance": 710
+          },
+          "task_scores": {
+            "object_rel_distance": 0.6549295774647887
+          }
+        },
+        "question_type::object_size_estimation": {
+          "count": 953,
+          "group": "object_size_estimation",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_size_estimation"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.758237145855192,
+          "qtype_counts": {
+            "object_size_estimation": 953
+          },
+          "qtype_scores": {
+            "object_size_estimation": 0.758237145855192
+          },
+          "row_weighted_mean": 0.758237145855192,
+          "task_counts": {
+            "object_size_estimation": 953
+          },
+          "task_scores": {
+            "object_size_estimation": 0.758237145855192
+          }
+        },
+        "question_type::room_size_estimation": {
+          "count": 288,
+          "group": "room_size_estimation",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "room_size_estimation"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.6343750000000006,
+          "qtype_counts": {
+            "room_size_estimation": 288
+          },
+          "qtype_scores": {
+            "room_size_estimation": 0.6343750000000006
+          },
+          "row_weighted_mean": 0.6343750000000006,
+          "task_counts": {
+            "room_size_estimation": 288
+          },
+          "task_scores": {
+            "room_size_estimation": 0.6343750000000006
+          }
+        },
+        "question_type::route_planning": {
+          "count": 194,
+          "group": "route_planning",
+          "group_kind": "question_type",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "route_planning"
+          ],
+          "primary_metric": "canonical-question-type row mean",
+          "primary_score": 0.4329896907216495,
+          "qtype_counts": {
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "route_planning": 0.4329896907216495
+          },
+          "row_weighted_mean": 0.4329896907216495,
+          "task_counts": {
+            "route_planning": 194
+          },
+          "task_scores": {
+            "route_planning": 0.4329896907216495
+          }
+        },
+        "subgroup::rest_3968": {
+          "count": 3968,
+          "group": "rest_3968",
+          "group_kind": "subgroup",
+          "missing_tasks": [
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "present_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "obj_appearance_order"
+          ],
+          "primary_metric": "VSI macro over task groups present in this subset",
+          "primary_score": 0.652500562144657,
+          "qtype_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.6197411003236246,
+            "object_abs_distance": 0.5254196642685843,
+            "object_counting": 0.7223008849557518,
+            "object_rel_distance": 0.6549295774647887,
+            "object_size_estimation": 0.758237145855192,
+            "room_size_estimation": 0.6343750000000006
+          },
+          "row_weighted_mean": 0.6551411290322624,
+          "task_counts": {
+            "obj_appearance_order": 618,
+            "object_abs_distance": 834,
+            "object_counting": 565,
+            "object_rel_distance": 710,
+            "object_size_estimation": 953,
+            "room_size_estimation": 288
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.6197411003236246,
+            "object_abs_distance": 0.5254196642685843,
+            "object_counting": 0.7223008849557518,
+            "object_rel_distance": 0.6549295774647887,
+            "object_size_estimation": 0.758237145855192,
+            "room_size_estimation": 0.6343750000000006
+          }
+        },
+        "subgroup::semantic_1162": {
+          "count": 1162,
+          "group": "semantic_1162",
+          "group_kind": "subgroup",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "primary_metric": "VSI macro over task groups present in this subset",
+          "primary_score": 0.6161165176625973,
+          "qtype_counts": {
+            "object_rel_direction_easy": 217,
+            "object_rel_direction_hard": 373,
+            "object_rel_direction_medium": 378,
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "object_rel_direction_easy": 0.8294930875576036,
+            "object_rel_direction_hard": 0.7587131367292225,
+            "object_rel_direction_medium": 0.8095238095238095,
+            "route_planning": 0.4329896907216495
+          },
+          "row_weighted_mean": 0.73407917383821,
+          "task_counts": {
+            "object_rel_direction": 968,
+            "route_planning": 194
+          },
+          "task_scores": {
+            "object_rel_direction": 0.7992433446035453,
+            "route_planning": 0.4329896907216495
+          }
+        },
+        "task_group::obj_appearance_order": {
+          "count": 618,
+          "group": "obj_appearance_order",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning"
+          ],
+          "present_tasks": [
+            "obj_appearance_order"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.6197411003236246,
+          "qtype_counts": {
+            "obj_appearance_order": 618
+          },
+          "qtype_scores": {
+            "obj_appearance_order": 0.6197411003236246
+          },
+          "row_weighted_mean": 0.6197411003236246,
+          "task_counts": {
+            "obj_appearance_order": 618
+          },
+          "task_scores": {
+            "obj_appearance_order": 0.6197411003236246
+          }
+        },
+        "task_group::object_abs_distance": {
+          "count": 834,
+          "group": "object_abs_distance",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_abs_distance"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.5254196642685843,
+          "qtype_counts": {
+            "object_abs_distance": 834
+          },
+          "qtype_scores": {
+            "object_abs_distance": 0.5254196642685843
+          },
+          "row_weighted_mean": 0.5254196642685843,
+          "task_counts": {
+            "object_abs_distance": 834
+          },
+          "task_scores": {
+            "object_abs_distance": 0.5254196642685843
+          }
+        },
+        "task_group::object_counting": {
+          "count": 565,
+          "group": "object_counting",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_counting"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.7223008849557518,
+          "qtype_counts": {
+            "object_counting": 565
+          },
+          "qtype_scores": {
+            "object_counting": 0.7223008849557518
+          },
+          "row_weighted_mean": 0.7223008849557518,
+          "task_counts": {
+            "object_counting": 565
+          },
+          "task_scores": {
+            "object_counting": 0.7223008849557518
+          }
+        },
+        "task_group::object_rel_direction": {
+          "count": 968,
+          "group": "object_rel_direction",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_direction"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.7992433446035453,
+          "qtype_counts": {
+            "object_rel_direction_easy": 217,
+            "object_rel_direction_hard": 373,
+            "object_rel_direction_medium": 378
+          },
+          "qtype_scores": {
+            "object_rel_direction_easy": 0.8294930875576036,
+            "object_rel_direction_hard": 0.7587131367292225,
+            "object_rel_direction_medium": 0.8095238095238095
+          },
+          "row_weighted_mean": 0.7944214876033058,
+          "task_counts": {
+            "object_rel_direction": 968
+          },
+          "task_scores": {
+            "object_rel_direction": 0.7992433446035453
+          }
+        },
+        "task_group::object_rel_distance": {
+          "count": 710,
+          "group": "object_rel_distance",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_rel_distance"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.6549295774647887,
+          "qtype_counts": {
+            "object_rel_distance": 710
+          },
+          "qtype_scores": {
+            "object_rel_distance": 0.6549295774647887
+          },
+          "row_weighted_mean": 0.6549295774647887,
+          "task_counts": {
+            "object_rel_distance": 710
+          },
+          "task_scores": {
+            "object_rel_distance": 0.6549295774647887
+          }
+        },
+        "task_group::object_size_estimation": {
+          "count": 953,
+          "group": "object_size_estimation",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "object_size_estimation"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.758237145855192,
+          "qtype_counts": {
+            "object_size_estimation": 953
+          },
+          "qtype_scores": {
+            "object_size_estimation": 0.758237145855192
+          },
+          "row_weighted_mean": 0.758237145855192,
+          "task_counts": {
+            "object_size_estimation": 953
+          },
+          "task_scores": {
+            "object_size_estimation": 0.758237145855192
+          }
+        },
+        "task_group::room_size_estimation": {
+          "count": 288,
+          "group": "room_size_estimation",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "route_planning",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "room_size_estimation"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.6343750000000006,
+          "qtype_counts": {
+            "room_size_estimation": 288
+          },
+          "qtype_scores": {
+            "room_size_estimation": 0.6343750000000006
+          },
+          "row_weighted_mean": 0.6343750000000006,
+          "task_counts": {
+            "room_size_estimation": 288
+          },
+          "task_scores": {
+            "room_size_estimation": 0.6343750000000006
+          }
+        },
+        "task_group::route_planning": {
+          "count": 194,
+          "group": "route_planning",
+          "group_kind": "task_group",
+          "missing_tasks": [
+            "object_counting",
+            "object_abs_distance",
+            "object_size_estimation",
+            "room_size_estimation",
+            "object_rel_distance",
+            "object_rel_direction",
+            "obj_appearance_order"
+          ],
+          "present_tasks": [
+            "route_planning"
+          ],
+          "primary_metric": "VSI task-group score",
+          "primary_score": 0.4329896907216495,
+          "qtype_counts": {
+            "route_planning": 194
+          },
+          "qtype_scores": {
+            "route_planning": 0.4329896907216495
+          },
+          "row_weighted_mean": 0.4329896907216495,
+          "task_counts": {
+            "route_planning": 194
+          },
+          "task_scores": {
+            "route_planning": 0.4329896907216495
+          }
+        }
+      }
+    }
+  }
+}

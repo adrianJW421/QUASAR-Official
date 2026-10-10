@@ -1,0 +1,35 @@
+{
+  "experiment_id": "I01",
+  "model": "QUASAR full SFT",
+  "sft_step": 53365,
+  "arms": {
+    "normal_vsi": {
+      "predictions": "normal.vsi.predictions.jsonl",
+      "summary": "normal.vsi.summary.json",
+      "protocol": "vsi_8task",
+      "evaluation_config": "configs/evaluation/I01_normal_vsi.json",
+      "spatial_bias_scale": 1.0
+    },
+    "zero_vsi": {
+      "predictions": "zero.vsi.predictions.jsonl",
+      "summary": "zero.vsi.summary.json",
+      "protocol": "vsi_8task",
+      "evaluation_config": "configs/evaluation/I01_zero_vsi.json",
+      "spatial_bias_scale": 0.0
+    },
+    "normal_vsti": {
+      "predictions": "normal.vsti.predictions.jsonl",
+      "summary": "normal.vsti.summary.json",
+      "protocol": "vsti_9subtype",
+      "evaluation_config": "configs/evaluation/I01_normal_vsti.json",
+      "spatial_bias_scale": 1.0
+    },
+    "zero_vsti": {
+      "predictions": "zero.vsti.predictions.jsonl",
+      "summary": "zero.vsti.summary.json",
+      "protocol": "vsti_9subtype",
+      "evaluation_config": "configs/evaluation/I01_zero_vsti.json",
+      "spatial_bias_scale": 0.0
+    }
+  }
+}

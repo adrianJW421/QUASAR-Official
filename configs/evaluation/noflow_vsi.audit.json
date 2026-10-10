@@ -1,0 +1,19 @@
+{
+  "format": "native_qwen3vl2b_glow_patch_spatial_generate_eval_v1",
+  "eval_rows": 5130,
+  "source_counts": {
+    "official_eval_legacy_vsi": 5130
+  },
+  "question_type_counts": {
+    "object_counting": 565,
+    "object_size_estimation": 953,
+    "room_size_estimation": 288,
+    "object_abs_distance": 834,
+    "object_rel_direction_hard": 373,
+    "object_rel_direction_medium": 378,
+    "object_rel_direction_easy": 217,
+    "object_rel_distance": 710,
+    "obj_appearance_order": 618,
+    "route_planning": 194
+  }
+}

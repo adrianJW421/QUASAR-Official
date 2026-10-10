@@ -1,0 +1,18 @@
+{
+  "format": "native_qwen3vl2b_glow_patch_spatial_generate_eval_v1",
+  "eval_rows": 6042,
+  "source_counts": {
+    "vsti_official_row32": 6042
+  },
+  "question_type_counts": {
+    "vsti_camera_obj_rel_dist_v2": 590,
+    "vsti_camera_movement_direction": 913,
+    "vsti_camera_obj_abs_dist": 905,
+    "vsti_camera_obj_rel_dist_v3": 1040,
+    "vsti_obj_obj_relative_pos_nf": 556,
+    "vsti_obj_obj_relative_pos_ud": 484,
+    "vsti_camera_obj_rel_dist_v1": 110,
+    "vsti_obj_obj_relative_pos_lr": 605,
+    "vsti_camera_displacement": 839
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "experiment_id": "M02",
+  "answer_conditions": [
+    {
+      "role": "base_vsti",
+      "rows": 6042,
+      "protocol": "vsti_5task",
+      "score_percent": 46.30658700148052,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

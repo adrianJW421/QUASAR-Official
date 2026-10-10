@@ -1,0 +1,23 @@
+{
+  "count": 6042,
+  "protocol": "vsti_5task",
+  "score_fraction": 0.6226049063870269,
+  "score_percent": 62.26049063870269,
+  "details": {
+    "group_scores": {
+      "camera_displacement": 0.4191895113230033,
+      "camera_movement_direction": 0.6626506024096386,
+      "camera_object_absolute_distance": 0.39646408839778996,
+      "camera_object_relative_distance": 0.735632183908046,
+      "object_object_relative_position": 0.8990881458966565
+    },
+    "group_counts": {
+      "camera_displacement": 839,
+      "camera_movement_direction": 913,
+      "camera_object_absolute_distance": 905,
+      "camera_object_relative_distance": 1740,
+      "object_object_relative_position": 1645
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

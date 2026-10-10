@@ -1,0 +1,31 @@
+{
+  "count": 6042,
+  "protocol": "vsti_9subtype",
+  "score_fraction": 0.7287455371649029,
+  "score_percent": 72.87455371649028,
+  "details": {
+    "group_scores": {
+      "vsti_camera_displacement": 0.4544696066746121,
+      "vsti_camera_movement_direction": 0.8039430449069004,
+      "vsti_camera_obj_abs_dist": 0.38939226519337006,
+      "vsti_camera_obj_rel_dist_v1": 0.6727272727272727,
+      "vsti_camera_obj_rel_dist_v2": 0.7067796610169491,
+      "vsti_camera_obj_rel_dist_v3": 0.7557692307692307,
+      "vsti_obj_obj_relative_pos_lr": 0.9190082644628099,
+      "vsti_obj_obj_relative_pos_nf": 0.908273381294964,
+      "vsti_obj_obj_relative_pos_ud": 0.9483471074380165
+    },
+    "group_counts": {
+      "vsti_camera_displacement": 839,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "unique_ids": 6042,
+  "missing": 0,
+  "duplicates": 0,
+  "per_question_scores_equal": true,
+  "task_group_scores": {
+    "camera_object_relative_distance": 0.6045977011494252,
+    "camera_movement_direction": 0.3603504928806134,
+    "camera_object_absolute_distance": 0.29348066298342546,
+    "object_object_relative_position": 0.790273556231003,
+    "camera_displacement": 0.26662693682955896
+  },
+  "vsti_group_macro": 0.4630658700148052,
+  "historical_native_cache_acceptance": {
+    "status": "PASS",
+    "cases": 2,
+    "raw_rgb_vs_cached_generated_tokens_exact": true,
+    "actual_grid_exact": true,
+    "public_inputs_only": true
+  }
+}

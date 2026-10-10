@@ -1,0 +1,30 @@
+{
+  "count": 5292,
+  "protocol": "vsti_9subtype",
+  "score_fraction": 0.7147080631446883,
+  "score_percent": 71.47080631446883,
+  "details": {
+    "group_scores": {
+      "vsti_camera_displacement": 0.3446578631452583,
+      "vsti_camera_movement_direction": 0.6210295728368017,
+      "vsti_camera_obj_abs_dist": 0.40331491712707146,
+      "vsti_camera_obj_rel_dist_v1": 0.7692307692307693,
+      "vsti_camera_obj_rel_dist_v2": 0.768762677484787,
+      "vsti_camera_obj_rel_dist_v3": 0.7885514018691588,
+      "vsti_obj_obj_relative_pos_lr": 0.8981481481481481,
+      "vsti_obj_obj_relative_pos_nf": 0.883495145631068,
+      "vsti_obj_obj_relative_pos_ud": 0.9551820728291317
+    },
+    "group_counts": {
+      "vsti_camera_displacement": 833,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v1": 91,
+      "vsti_camera_obj_rel_dist_v2": 493,
+      "vsti_camera_obj_rel_dist_v3": 856,
+      "vsti_obj_obj_relative_pos_lr": 432,
+      "vsti_obj_obj_relative_pos_nf": 412,
+      "vsti_obj_obj_relative_pos_ud": 357
+    }
+  }
+}

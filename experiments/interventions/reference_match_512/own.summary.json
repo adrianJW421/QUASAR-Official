@@ -1,0 +1,9 @@
+{
+  "count": 512,
+  "protocol": "exact_micro",
+  "score_fraction": 0.810546875,
+  "score_percent": 81.0546875,
+  "details": {
+    "correct": 415
+  }
+}

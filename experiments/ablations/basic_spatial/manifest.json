@@ -1,0 +1,21 @@
+{
+  "experiment_id": "A01",
+  "checkpoint_step": 53365,
+  "training_config": "configs/ablations/basic.json",
+  "benchmarks": {
+    "vsi": {
+      "predictions": "vsi.predictions.jsonl",
+      "summary": "vsi.summary.json",
+      "eval_config": "configs/evaluation/basic_vsi.json",
+      "count": 5130,
+      "protocol": "vsi_8task"
+    },
+    "vsti": {
+      "predictions": "vsti.predictions.jsonl",
+      "summary": "vsti.summary.json",
+      "eval_config": "configs/evaluation/basic_vsti.json",
+      "count": 6042,
+      "protocol": "vsti_5task"
+    }
+  }
+}

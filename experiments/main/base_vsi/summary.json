@@ -1,0 +1,58 @@
+{
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "score_fraction": 0.5982470496658329,
+  "score_percent": 59.82470496658328,
+  "details": {
+    "count": 5130,
+    "row_weighted_mean": 0.6200779727095537,
+    "official_like_macro_over_present_tasks": 0.5982470496658329,
+    "present_official_tasks": [
+      "object_counting",
+      "object_abs_distance",
+      "object_size_estimation",
+      "room_size_estimation",
+      "object_rel_distance",
+      "object_rel_direction",
+      "route_planning",
+      "obj_appearance_order"
+    ],
+    "missing_official_tasks": [],
+    "task_scores": {
+      "object_counting": 0.6923893805309737,
+      "object_abs_distance": 0.5202637889688252,
+      "object_size_estimation": 0.7586568730325274,
+      "room_size_estimation": 0.6038194444444447,
+      "object_rel_distance": 0.6183098591549295,
+      "object_rel_direction": 0.5260939190426924,
+      "route_planning": 0.33505154639175255,
+      "obj_appearance_order": 0.7313915857605178
+    },
+    "raw_question_type_scores": {
+      "obj_appearance_order": 0.7313915857605178,
+      "object_abs_distance": 0.5202637889688252,
+      "object_counting": 0.6923893805309737,
+      "object_rel_direction_easy": 0.5668202764976958,
+      "object_rel_direction_hard": 0.46648793565683644,
+      "object_rel_direction_medium": 0.544973544973545,
+      "object_rel_distance": 0.6183098591549295,
+      "object_size_estimation": 0.7586568730325274,
+      "room_size_estimation": 0.6038194444444447,
+      "route_planning": 0.33505154639175255
+    },
+    "question_type_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    }
+  },
+  "verification": "rescored_against_retained_original_answers",
+  "historical_overall_percent": 59.8247049665833
+}

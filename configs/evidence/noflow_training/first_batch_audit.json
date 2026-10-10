@@ -1,0 +1,34 @@
+{
+  "grad_norm_by_group": {
+    "qwen_lora": 52.689107947051525,
+    "spatial_flow": 1.3217799405047117
+  },
+  "nonzero_grad_params_by_group": {
+    "qwen_lora": 252,
+    "spatial_flow": 57
+  },
+  "missing_required_grad_groups": [],
+  "trainable_parameters": 59829063,
+  "passed": true,
+  "image_feature_tokens": 2240,
+  "visual_cache_used": true,
+  "spatial_bias_tokens": 2240,
+  "disable_spatial_flow_bias": true,
+  "raw_spatial_bias_abs_mean": 0.459424763917923,
+  "spatial_bias_abs_mean": 0.0,
+  "answer_label_tokens": 2,
+  "reference_schema": "simple3",
+  "target_camera_aux_tokens": 0,
+  "semantic_query_aux_tokens": 0,
+  "canonical_bev_aux_tokens": 0,
+  "object_center_aux_samples": 0,
+  "label_audit": [
+    {
+      "label_token_count": 2,
+      "decoded_label_span": "zero<|im_end|>"
+    }
+  ],
+  "sample_ids": [
+    "scanqa_sqa3d_msqa::msqa_scannet_scannet_train_13186"
+  ]
+}

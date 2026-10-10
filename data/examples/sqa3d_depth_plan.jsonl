@@ -1,0 +1,1 @@
+{"source_row": 260063, "sample_id": "sqa3d_loc3r::sqa3d_220602000000_0", "video_id": "sqa3d__scene0380_00", "scene_id": "scene0380_00", "geometry_source": "scannet_depth_pose", "expected_frame_ids": [0, 20, 60, 80, 120, 140, 180, 200, 240, 260, 300, 320, 340, 380, 400, 440, 460, 500, 520, 560, 580, 600, 640, 660, 700, 720, 760, 780, 820, 840, 880, 900]}

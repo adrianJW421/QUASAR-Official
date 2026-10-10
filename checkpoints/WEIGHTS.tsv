@@ -1,0 +1,5 @@
+id	role	stage	step	base_id	archive	archive_bytes	checkpoint_bytes	tensor_validation	download_link
+W01	QUASAR SFT+GRPO (main table)	GRPO	2048	B01	W01.tar.gz	435088176	470450020	exact names/shapes/dtypes/values after serialization	TOBEADD
+W02	QUASAR SFT (main table)	SFT	44544	B01	W02.tar.gz	437140031	472551578	exact names/shapes/dtypes/values after serialization	TOBEADD
+W05	Visual-only SFT+GRPO (main table)	GRPO	2048	B01	W05.tar.gz	162031225	174765183	exact names/shapes/dtypes/values after serialization	TOBEADD
+W06	Visual-only SFT (main table)	SFT	46592	B01	W06.tar.gz	162014533	174764671	exact names/shapes/dtypes/values after serialization	TOBEADD

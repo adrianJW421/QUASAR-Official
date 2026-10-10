@@ -1,0 +1,60 @@
+{
+  "experiment_id": "I06",
+  "source_scope": "existing September 512 diagnostic; not original June training source",
+  "recorded_loader_parameters": {
+    "device": "cuda",
+    "max_visual_frames": 32,
+    "max_pixels": 50176,
+    "reference_schema": "simple3",
+    "simple3_aux_required": true,
+    "flow_dim": 512,
+    "num_flow_steps": 4,
+    "num_spatial_bias_experts": 5,
+    "bias_gate_temperature": 1.0,
+    "safe_bias_residual_init": 0.05,
+    "safe_bias_residual_max": 0.25,
+    "bias_norm_max_ratio": 0.15,
+    "spatial_query_count": 4,
+    "dropout": 0.05,
+    "checkpoint_path": "${I06_CHECKPOINT_FILE}",
+    "qwen_model_path": "${QWEN_MODEL_PATH}",
+    "visual_cache_roots": [
+      "${VISUAL_CACHE_ROOT}",
+      "${EXTRA_VISUAL_CACHE_ROOT}",
+      "${VISUAL_CACHE_ROOT_41}"
+    ],
+    "scannet_frame_root": "${SCANNET_FRAME_ROOT}",
+    "model_inputs_jsonl": "${I06_MODEL_INPUTS_JSONL}"
+  },
+  "runtime_settings": {
+    "seed": 0,
+    "batch": 1,
+    "frames": 32,
+    "max_pixels": 50176,
+    "greedy_max_new_tokens": 16,
+    "attention": "sdpa",
+    "eval": true
+  },
+  "tensor_readback": {
+    "spatial_flow_state_dict": 194,
+    "decoder_aux_state_dict": 81,
+    "qwen_lora_state_dict": 504
+  },
+  "torch_at_generation": "2.10.0+cu128",
+  "base_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "query_pose_mode": "provided_full",
+  "force_eager": false,
+  "global_3d_pe_mode": "none",
+  "all_parameters_frozen": true,
+  "sampling": {
+    "temperature": 0.0,
+    "top_p": 1.0,
+    "max_new_tokens": 16
+  },
+  "arms": {
+    "own": "recipient own post-clamp residual",
+    "zero": "exact zero at all four visual write sites",
+    "permuted": "fixed recipient visual evidence with same-gauge donor numerical reference; newly computed post-clamp residual"
+  },
+  "execution_binding": "custom captured-residual diagnostic runner; CPU package validates underlying write paths, not GPU replay of this runner"
+}

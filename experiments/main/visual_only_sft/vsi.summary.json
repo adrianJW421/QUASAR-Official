@@ -1,0 +1,57 @@
+{
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "score_fraction": 0.6279313354319813,
+  "score_percent": 62.79313354319813,
+  "details": {
+    "count": 5130,
+    "row_weighted_mean": 0.6478167641325558,
+    "official_like_macro_over_present_tasks": 0.6279313354319813,
+    "present_official_tasks": [
+      "object_counting",
+      "object_abs_distance",
+      "object_size_estimation",
+      "room_size_estimation",
+      "object_rel_distance",
+      "object_rel_direction",
+      "route_planning",
+      "obj_appearance_order"
+    ],
+    "missing_official_tasks": [],
+    "task_scores": {
+      "object_counting": 0.720353982300885,
+      "object_abs_distance": 0.44999999999999946,
+      "object_size_estimation": 0.7431269674711414,
+      "room_size_estimation": 0.6625000000000001,
+      "object_rel_distance": 0.6338028169014085,
+      "object_rel_direction": 0.7506268473866271,
+      "route_planning": 0.44329896907216493,
+      "obj_appearance_order": 0.6197411003236246
+    },
+    "raw_question_type_scores": {
+      "obj_appearance_order": 0.6197411003236246,
+      "object_abs_distance": 0.44999999999999946,
+      "object_counting": 0.720353982300885,
+      "object_rel_direction_easy": 0.7741935483870968,
+      "object_rel_direction_hard": 0.7131367292225201,
+      "object_rel_direction_medium": 0.7645502645502645,
+      "object_rel_distance": 0.6338028169014085,
+      "object_size_estimation": 0.7431269674711414,
+      "room_size_estimation": 0.6625000000000001,
+      "route_planning": 0.44329896907216493
+    },
+    "question_type_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

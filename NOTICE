@@ -1,0 +1,35 @@
+QUASAR
+Original project contributions: Apache License, Version 2.0.
+Attribution label during anonymous review: QUASAR contributors.
+Copyright remains with the respective rights holders.
+
+Qwen3-VL / Hugging Face Transformers
+Copyright 2025 The Qwen Team and The HuggingFace Inc. team. All rights reserved.
+Copyright 2018- The Hugging Face team. All rights reserved.
+Apache License, Version 2.0.
+Checked source reference:
+https://github.com/huggingface/transformers/blob/16a5b0936dcaae6efbc03ab1a4fd98dc324bfb9e/src/transformers/models/qwen3_vl/modeling_qwen3_vl.py
+
+The following files adapt Qwen visual-input forwarding. QUASAR modifications
+support saved visual features, project spatial corrections, spatial summary
+tokens, auxiliary readouts, or explicit generation loops, as applicable:
+src/quasar/base_vsti/cached_generate.py
+src/quasar/eval_native_qwen3vl2b_direct_visual_generate.py
+src/quasar/eval_native_qwen3vl2b_glow_patch_spatial_generate.py
+src/quasar/eval_native_qwen3vl2b_glow_patch_spatial_moe_generate.py
+src/quasar/eval_native_qwen3vl2b_glow_patch_spatial_decoder_aux_generate.py
+src/quasar/train_native_qwen3vl2b_direct_visual_sft_baseline.py
+src/quasar/train_native_qwen3vl2b_glow_patch_spatial.py
+src/quasar/train_native_qwen3vl2b_glow_patch_spatial_moe_metric.py
+src/quasar/train_native_qwen3vl2b_glow_patch_spatial_decoder_aux.py
+The checked source reference identifies the present dependency interface; it
+does not assert that all historical training used this exact source revision.
+
+CUT3R / CroCo curope is obtained and built separately, under CC BY-NC-SA 4.0.
+Copyright (C) 2022-present Naver Corporation. All rights reserved.
+The build helper changes only the CUDA precision-dispatch API. Its generated
+source and wheel retain the upstream copyright, license and modification notice.
+
+Additional dependency notices are in third_party/licenses/. Included QA keeps
+the source attributions and licenses in data/TERMS.md and data/licenses/.
+These notices do not change third-party licenses or require paper citations.

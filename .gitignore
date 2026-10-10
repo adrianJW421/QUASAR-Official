@@ -1,0 +1,37 @@
+# Local notes kept out of version control.
+/LOCAL_SOURCE_MAP.md
+
+# Machine-local settings and generated Python files.
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+
+# Original media and rebuildable caches are obtained separately.
+/data/raw/
+/data/cache/
+/data/geometry/
+/data/features/
+/data/visual_cache/
+/upstream/
+/runs/
+/build/
+/dist/
+*.egg-info/
+/experiments/**/cache/
+/experiments/**/diagnostic_tensors/
+
+# Model weights are distributed separately.
+/checkpoints/**/*.pt
+/checkpoints/**/*.pth
+/checkpoints/**/*.bin
+/checkpoints/**/*.safetensors
+
+# Large training QA is downloaded separately.
+/data/annotations/sft_426916_qa.jsonl
+
+# Other QA records, prediction text, small scores, and manifests are not ignored.

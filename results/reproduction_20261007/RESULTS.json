@@ -1,0 +1,455 @@
+[
+  {
+    "cell": "vsti/base",
+    "paper_table": 1,
+    "paper_score_percent": 46.30658700148052,
+    "smoke": false,
+    "expected_count": 6042,
+    "status": "EVALUATED",
+    "score": {
+      "count": 6042,
+      "protocol": "vsti_5task",
+      "score_fraction": 0.46306587001480526,
+      "score_percent": 46.30658700148052,
+      "details": {
+        "group_scores": {
+          "camera_displacement": 0.26662693682955924,
+          "camera_movement_direction": 0.3603504928806134,
+          "camera_object_absolute_distance": 0.2934806629834254,
+          "camera_object_relative_distance": 0.6045977011494252,
+          "object_object_relative_position": 0.790273556231003
+        },
+        "group_counts": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_object_absolute_distance": 905,
+          "camera_object_relative_distance": 1740,
+          "object_object_relative_position": 1645
+        }
+      }
+    },
+    "paper_delta_pp": 0.0,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/base_vsti/summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_camera_displacement": 839
+    },
+    "text_changed": 0,
+    "score_changed": 0,
+    "improved": 0,
+    "worsened": 0
+  },
+  {
+    "cell": "vsti/visual_sft",
+    "paper_table": 1,
+    "paper_score_percent": 61.85615333333874,
+    "smoke": false,
+    "expected_count": 6042,
+    "status": "EVALUATED",
+    "score": {
+      "count": 6042,
+      "protocol": "vsti_5task",
+      "score_fraction": 0.6185615333333874,
+      "score_percent": 61.85615333333874,
+      "details": {
+        "group_scores": {
+          "camera_displacement": 0.4259833134684146,
+          "camera_movement_direction": 0.6297918948521358,
+          "camera_object_absolute_distance": 0.39160220994475137,
+          "camera_object_relative_distance": 0.7396551724137931,
+          "object_object_relative_position": 0.9057750759878419
+        },
+        "group_counts": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_object_absolute_distance": 905,
+          "camera_object_relative_distance": 1740,
+          "object_object_relative_position": 1645
+        }
+      }
+    },
+    "paper_delta_pp": 0.0,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/visual_only_sft/vsti.summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_camera_displacement": 839
+    },
+    "text_changed": 0,
+    "score_changed": 0,
+    "improved": 0,
+    "worsened": 0
+  },
+  {
+    "cell": "vsti/visual_grpo",
+    "paper_table": 1,
+    "paper_score_percent": 62.26049063870269,
+    "smoke": false,
+    "expected_count": 6042,
+    "status": "EVALUATED",
+    "score": {
+      "count": 6042,
+      "protocol": "vsti_5task",
+      "score_fraction": 0.6226049063870269,
+      "score_percent": 62.26049063870269,
+      "details": {
+        "group_scores": {
+          "camera_displacement": 0.4191895113230033,
+          "camera_movement_direction": 0.6626506024096386,
+          "camera_object_absolute_distance": 0.39646408839778996,
+          "camera_object_relative_distance": 0.735632183908046,
+          "object_object_relative_position": 0.8990881458966565
+        },
+        "group_counts": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_object_absolute_distance": 905,
+          "camera_object_relative_distance": 1740,
+          "object_object_relative_position": 1645
+        }
+      }
+    },
+    "paper_delta_pp": 0.0,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/visual_only_grpo/vsti.summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_camera_displacement": 839
+    },
+    "text_changed": 0,
+    "score_changed": 0,
+    "improved": 0,
+    "worsened": 0
+  },
+  {
+    "cell": "vsti/quasar_sft",
+    "paper_table": 1,
+    "paper_score_percent": 65.1114995188606,
+    "smoke": false,
+    "expected_count": 6042,
+    "status": "EVALUATED",
+    "score": {
+      "count": 6042,
+      "protocol": "vsti_5task",
+      "score_fraction": 0.651393506415453,
+      "score_percent": 65.1393506415453,
+      "details": {
+        "group_scores": {
+          "camera_displacement": 0.40941597139451696,
+          "camera_movement_direction": 0.8247535596933188,
+          "camera_object_absolute_distance": 0.3882872928176797,
+          "camera_object_relative_distance": 0.728735632183908,
+          "object_object_relative_position": 0.9057750759878419
+        },
+        "group_counts": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_object_absolute_distance": 905,
+          "camera_object_relative_distance": 1740,
+          "object_object_relative_position": 1645
+        }
+      }
+    },
+    "paper_delta_pp": 0.027851122684708685,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/quasar_sft/vsti.summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_camera_displacement": 839
+    },
+    "text_changed": 624,
+    "score_changed": 434,
+    "improved": 218,
+    "worsened": 216
+  },
+  {
+    "cell": "vsti/quasar_grpo",
+    "paper_table": 1,
+    "paper_score_percent": 66.18587065462481,
+    "smoke": false,
+    "expected_count": 6042,
+    "status": "EVALUATED",
+    "score": {
+      "count": 6042,
+      "protocol": "vsti_5task",
+      "score_fraction": 0.6603231694389242,
+      "score_percent": 66.03231694389243,
+      "details": {
+        "group_scores": {
+          "camera_displacement": 0.4400476758045295,
+          "camera_movement_direction": 0.7995618838992333,
+          "camera_object_absolute_distance": 0.4130386740331492,
+          "camera_object_relative_distance": 0.7310344827586207,
+          "object_object_relative_position": 0.9179331306990881
+        },
+        "group_counts": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_object_absolute_distance": 905,
+          "camera_object_relative_distance": 1740,
+          "object_object_relative_position": 1645
+        }
+      }
+    },
+    "paper_delta_pp": -0.1535537107323819,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/quasar_grpo/vsti.summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_camera_displacement": 839
+    },
+    "text_changed": 661,
+    "score_changed": 442,
+    "improved": 207,
+    "worsened": 235
+  },
+  {
+    "cell": "vsi/base",
+    "paper_table": 2,
+    "paper_score_percent": 59.82470496658328,
+    "smoke": false,
+    "expected_count": 5130,
+    "status": "BLOCKED_INPUT",
+    "blockers": [
+      "M01 historical raw-video loader, model revision and sampled frames are missing"
+    ]
+  },
+  {
+    "cell": "vsi/visual_sft",
+    "paper_table": 2,
+    "paper_score_percent": 62.79313354319813,
+    "smoke": false,
+    "expected_count": 5130,
+    "status": "EVALUATED",
+    "score": {
+      "count": 5130,
+      "protocol": "vsi_8task",
+      "score_fraction": 0.6279313354319813,
+      "score_percent": 62.79313354319813,
+      "details": {
+        "count": 5130,
+        "row_weighted_mean": 0.6478167641325558,
+        "official_like_macro_over_present_tasks": 0.6279313354319813,
+        "present_official_tasks": [
+          "object_counting",
+          "object_abs_distance",
+          "object_size_estimation",
+          "room_size_estimation",
+          "object_rel_distance",
+          "object_rel_direction",
+          "route_planning",
+          "obj_appearance_order"
+        ],
+        "missing_official_tasks": [],
+        "task_scores": {
+          "object_counting": 0.720353982300885,
+          "object_abs_distance": 0.44999999999999946,
+          "object_size_estimation": 0.7431269674711414,
+          "room_size_estimation": 0.6625000000000001,
+          "object_rel_distance": 0.6338028169014085,
+          "object_rel_direction": 0.7506268473866271,
+          "route_planning": 0.44329896907216493,
+          "obj_appearance_order": 0.6197411003236246
+        },
+        "raw_question_type_scores": {
+          "obj_appearance_order": 0.6197411003236246,
+          "object_abs_distance": 0.44999999999999946,
+          "object_counting": 0.720353982300885,
+          "object_rel_direction_easy": 0.7741935483870968,
+          "object_rel_direction_hard": 0.7131367292225201,
+          "object_rel_direction_medium": 0.7645502645502645,
+          "object_rel_distance": 0.6338028169014085,
+          "object_size_estimation": 0.7431269674711414,
+          "room_size_estimation": 0.6625000000000001,
+          "route_planning": 0.44329896907216493
+        },
+        "question_type_counts": {
+          "object_counting": 565,
+          "object_size_estimation": 953,
+          "room_size_estimation": 288,
+          "object_abs_distance": 834,
+          "object_rel_direction_hard": 373,
+          "object_rel_direction_medium": 378,
+          "object_rel_direction_easy": 217,
+          "object_rel_distance": 710,
+          "obj_appearance_order": 618,
+          "route_planning": 194
+        }
+      }
+    },
+    "paper_delta_pp": 0.0,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/visual_only_sft/vsi.summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    },
+    "text_changed": 0,
+    "score_changed": 0,
+    "improved": 0,
+    "worsened": 0
+  },
+  {
+    "cell": "vsi/visual_grpo",
+    "paper_table": 2,
+    "paper_score_percent": 63.61647746428575,
+    "smoke": false,
+    "expected_count": 5130,
+    "status": "EVALUATED",
+    "score": {
+      "count": 5130,
+      "protocol": "vsi_8task",
+      "score_fraction": 0.6361647746428575,
+      "score_percent": 63.61647746428575,
+      "details": {
+        "count": 5130,
+        "row_weighted_mean": 0.6573489278752471,
+        "official_like_macro_over_present_tasks": 0.6361647746428575,
+        "present_official_tasks": [
+          "object_counting",
+          "object_abs_distance",
+          "object_size_estimation",
+          "room_size_estimation",
+          "object_rel_distance",
+          "object_rel_direction",
+          "route_planning",
+          "obj_appearance_order"
+        ],
+        "missing_official_tasks": [],
+        "task_scores": {
+          "object_counting": 0.7339823008849556,
+          "object_abs_distance": 0.4653477218225419,
+          "object_size_estimation": 0.7408184679958001,
+          "room_size_estimation": 0.6819444444444445,
+          "object_rel_distance": 0.6507042253521127,
+          "object_rel_direction": 0.7812893281053217,
+          "route_planning": 0.4381443298969072,
+          "obj_appearance_order": 0.5970873786407767
+        },
+        "raw_question_type_scores": {
+          "obj_appearance_order": 0.5970873786407767,
+          "object_abs_distance": 0.4653477218225419,
+          "object_counting": 0.7339823008849556,
+          "object_rel_direction_easy": 0.815668202764977,
+          "object_rel_direction_hard": 0.7319034852546917,
+          "object_rel_direction_medium": 0.7962962962962963,
+          "object_rel_distance": 0.6507042253521127,
+          "object_size_estimation": 0.7408184679958001,
+          "room_size_estimation": 0.6819444444444445,
+          "route_planning": 0.4381443298969072
+        },
+        "question_type_counts": {
+          "object_counting": 565,
+          "object_size_estimation": 953,
+          "room_size_estimation": 288,
+          "object_abs_distance": 834,
+          "object_rel_direction_hard": 373,
+          "object_rel_direction_medium": 378,
+          "object_rel_direction_easy": 217,
+          "object_rel_distance": 710,
+          "obj_appearance_order": 618,
+          "route_planning": 194
+        }
+      }
+    },
+    "paper_delta_pp": 0.0,
+    "source": "new_model_generation",
+    "paper_source": "experiments/main/visual_only_grpo/vsi.summary.json",
+    "validation": "RESCORED_FROM_OFFICIAL_QA",
+    "ordered_unique": true,
+    "subgroup_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    },
+    "text_changed": 0,
+    "score_changed": 0,
+    "improved": 0,
+    "worsened": 0
+  },
+  {
+    "cell": "vsi/quasar_sft",
+    "paper_table": 2,
+    "paper_score_percent": 64.85689998828403,
+    "smoke": false,
+    "expected_count": 5130,
+    "status": "BLOCKED_INPUT",
+    "blockers": [
+      "Semantic question viewpoints lack an authoritative transform to regenerated CUT3R coordinates (1162 rows)"
+    ]
+  },
+  {
+    "cell": "vsi/quasar_grpo",
+    "paper_table": 2,
+    "paper_score_percent": 65.36470118814256,
+    "smoke": false,
+    "expected_count": 5130,
+    "status": "BLOCKED_INPUT",
+    "blockers": [
+      "Semantic question viewpoints lack an authoritative transform to regenerated CUT3R coordinates (1162 rows)"
+    ]
+  }
+]

@@ -1,0 +1,87 @@
+{
+  "grad_norm_by_group": {
+    "qwen_lora": 8.578078801278025,
+    "spatial_flow": 1.962114733609269,
+    "decoder_aux": 1.3333152588766097,
+    "numeric_scaffold": 0.0,
+    "global_3d_pe": 0.0
+  },
+  "nonzero_grad_params_by_group": {
+    "decoder_aux": 40,
+    "qwen_lora": 252,
+    "spatial_flow": 121
+  },
+  "missing_required_grad_groups": [],
+  "trainable_parameters": 118070223,
+  "passed": true,
+  "numeric_scaffold_token_count": 0,
+  "image_feature_tokens": 2240,
+  "visual_cache_used": true,
+  "spatial_bias_tokens": 2240,
+  "spatial_query_count": 4,
+  "spatial_query_token_count": 4,
+  "spatial_query_abs_mean": 0.01589246839284897,
+  "raw_spatial_bias_abs_mean": 0.0,
+  "safe_spatial_bias_abs_mean": 0.0,
+  "safe_bias_residual_scale": 0.05000000074505806,
+  "safe_bias_norm_ratio_mean": 0.0,
+  "safe_bias_norm_ratio_max": 0.0,
+  "bias_gate_mean": [
+    0.12634463608264923,
+    0.29701268672943115,
+    0.24717830121517181,
+    0.14720752835273743,
+    0.1822568029165268
+  ],
+  "bias_gate_max_mean": 0.29701268672943115,
+  "answer_label_tokens": 4,
+  "reference_schema": "simple3",
+  "target_camera_aux_tokens": 0,
+  "semantic_query_aux_tokens": 0,
+  "canonical_bev_aux_tokens": 2240,
+  "object_center_aux_samples": 0,
+  "loss_spatial_query_sigreg": 0.0023976818192750216,
+  "spatial_query_sigreg_loss": 0.07992272824048996,
+  "spatial_query_sigreg_weight": 0.029999999329447746,
+  "spatial_query_sigreg_projection_mean_abs": 1.3651424524141476e-07,
+  "spatial_query_sigreg_projection_std_mean": 0.9998296499252319,
+  "spatial_query_sigreg_projection_std_min": 0.9879005551338196,
+  "spatial_query_sigreg_offdiag_cosine": -0.31748372316360474,
+  "loss_base_kl": 0.0,
+  "base_kl_loss": 0.0,
+  "base_kl_weight": 0.05000000074505806,
+  "base_kl_token_count": 4.0,
+  "base_kl_student_entropy": 0.6737860441207886,
+  "base_kl_base_entropy": 0.6737860441207886,
+  "global_3d_pe_enabled": 0.0,
+  "global_3d_pe_valid_tokens": -0.0,
+  "global_3d_pe_abs_mean": -0.0,
+  "global_3d_pe_norm_ratio_mean": -0.0,
+  "global_3d_pe_norm_ratio_max": -0.0,
+  "global_3d_pe_residual_scale": 0.0,
+  "label_audit": [
+    {
+      "label_token_count": 4,
+      "decoded_label_span": "0.4<|im_end|>"
+    }
+  ],
+  "numeric_scaffold_label_span_audit": {
+    "mode": "arnum_label_span",
+    "rows": 1,
+    "scaffold_target_rows": 0,
+    "passed_rows": 0,
+    "failed_rows": 0,
+    "passed": true,
+    "records": [
+      {
+        "index": 0,
+        "decoded_label_span": "0.4<|im_end|>",
+        "target_has_scaffold": false,
+        "passed": true
+      }
+    ]
+  },
+  "sample_ids": [
+    "vlm3r_canonical_vsi::vlm3r_193000"
+  ]
+}

@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quasar-spatial"
+version = "0.1.2"
+readme = "README.md"
+license = {file = "LICENSE_SCOPE.md"}
+description = "Four-summary-token reference-conditioned spatial reasoning"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy==2.2.6",
+  "torch==2.10.0",
+  "torchvision==0.25.0",
+  "transformers==5.3.0.dev0",
+  "pillow==12.1.1",
+  "qwen-vl-utils==0.0.14",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2"]
+sensor = ["opencv-python", "imageio", "pypng==0.20220715.0"]
+
+[project.scripts]
+quasar-reviewer = "quasar.reviewer:main"
+quasar-base-vsti-generate = "quasar.base_vsti.inference:main"
+quasar-base-vsi-generate = "quasar.public_vsi_base:main"
+quasar-vsi-locate-reference = "quasar.vsi_reference:main"
+quasar-construct-reference = "quasar.construct_reference:main"
+quasar-score-numeric-pose = "quasar.numeric_pose_score:main"
+quasar-sft = "quasar.train_native_qwen3vl2b_glow_patch_spatial_decoder_aux:main"
+quasar-grpo = "quasar.train_native_qwen3vl8b_decoderaux_numeric_grpo:main"
+quasar-visual-sft = "quasar.train_native_qwen3vl2b_direct_visual_sft_baseline:main"
+quasar-visual-grpo = "quasar.train_native_qwen3vl8b_direct_visual_grpo:main"
+quasar-basic-sft = "quasar.train_native_qwen3vl2b_glow_patch_spatial:main"
+quasar-generate = "quasar.eval_native_qwen3vl2b_glow_patch_spatial_decoder_aux_generate:main"
+quasar-visual-generate = "quasar.eval_native_qwen3vl2b_direct_visual_generate:main"
+quasar-basic-generate = "quasar.eval_native_qwen3vl2b_glow_patch_spatial_generate:main"
+quasar-score = "quasar.score_vsibench_official_like_predictions:main"
+quasar-score-retained = "quasar.retained_predictions_score:main"
+quasar-prepare-data = "quasar.prepare_release_data:main"
+quasar-export-geometry = "quasar.export_observation_geometry:main"
+quasar-export-visual-cache = "quasar.export_visual_cache:main"
+quasar-bind-rebuilt-reference = "quasar.prepare_rebuilt_reference:main"
+quasar-extract-frames = "quasar.extract_public_frames:main"
+quasar-prepare-public-inputs = "quasar.prepare_public_inputs:main"
+quasar-convert-vsi = "quasar.convert_vsi_source:main"
+quasar-convert-sqa3d-reference = "quasar.convert_sqa3d_reference:main"
+quasar-export-checkpoint = "quasar.export_checkpoint:main"
+quasar-export-scannet-sensor = "quasar.export_scannet_sensor:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "LICENSE-WEIGHTS", "LICENSE_SCOPE.md", "NOTICE", "third_party/README.md", "third_party/licenses/**/*", "data/TERMS.md", "data/licenses/*"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

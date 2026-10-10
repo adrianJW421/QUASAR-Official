@@ -1,0 +1,72 @@
+{
+  "checked_utc": "2026-10-09",
+  "scope": "distributed source/QA and separately acquired runtime components; license reference revisions do not replace dataset or execution versions",
+  "components": [
+    {
+      "component": "Qwen3-VL-8B-Instruct",
+      "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+      "license": "Apache-2.0",
+      "distribution": "user downloads full backbone and tokenizer separately",
+      "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct/blob/0c351dd01ed87e9c1b53cbc748cba10e6187ff3b/README.md"
+    },
+    {
+      "component": "Transformers Qwen visual forwarding",
+      "revision": "16a5b0936dcaae6efbc03ab1a4fd98dc324bfb9e",
+      "license": "Apache-2.0",
+      "distribution": "adapted portions in nine project modules; complete library installed separately",
+      "source": "https://github.com/huggingface/transformers/blob/16a5b0936dcaae6efbc03ab1a4fd98dc324bfb9e/src/transformers/models/qwen3_vl/modeling_qwen3_vl.py"
+    },
+    {
+      "component": "CUT3R / CroCo",
+      "revision": "8bc15dc92a6d7fd92920b4ec81540d3dec7d3ecf",
+      "license": "CC-BY-NC-SA-4.0",
+      "distribution": "code, component and weights obtained/built separately; not part of project added-weight archives",
+      "source": "https://github.com/CUT3R/CUT3R/blob/8bc15dc92a6d7fd92920b4ec81540d3dec7d3ecf/LICENSE",
+      "historical_training_revision": "unresolved; this is the public checked source reference"
+    },
+    {
+      "component": "VLM-3R training QA",
+      "revision": "aae3535e513d36be5fd0a1edbaab523c8a3c45e4",
+      "license": "Apache-2.0",
+      "distribution": "273696 historical training rows and 17651 validation rows included",
+      "source": "https://huggingface.co/datasets/Journey9ni/VLM-3R-DATA/blob/aae3535e513d36be5fd0a1edbaab523c8a3c45e4/README.md",
+      "historical_training_revision": "full pre-correction binding unresolved; content remains the supplied historical QA, not the corrected download"
+    },
+    {
+      "component": "ScanQA QA",
+      "revision": "0a9f162112c80b439903062a4097d63015a70cad",
+      "license": "CC-BY-NC-SA-3.0",
+      "distribution": "17319 QA rows included with original attribution and source license",
+      "source": "https://github.com/ATR-DBI/ScanQA/blob/0a9f162112c80b439903062a4097d63015a70cad/LICENSE"
+    },
+    {
+      "component": "SQA3D QA",
+      "revision": "a98da8fda65f81f614bdfed48c27aae34975c566",
+      "license": "CC-BY-4.0",
+      "distribution": "68236 QA rows included; code license is separate",
+      "source": "https://github.com/SilongYong/SQA3D/blob/a98da8fda65f81f614bdfed48c27aae34975c566/README.md#license"
+    },
+    {
+      "component": "MSQA ScanNet QA",
+      "revision": "c602400561c19ff59f09948d921d0c5b4a1cac54",
+      "license": "CC-BY-NC-SA-4.0",
+      "distribution": "67665 QA rows included with original attribution and source license",
+      "source": "https://github.com/MSR3D/MSR3D/blob/c602400561c19ff59f09948d921d0c5b4a1cac54/README.md"
+    },
+    {
+      "component": "VSI-Bench QA",
+      "revision": "bdcadb3fea447621a828a24911801faba3587c12",
+      "license": "Apache-2.0",
+      "distribution": "5130 historical M01 scoring inputs included; provider media separate",
+      "source": "https://huggingface.co/datasets/nyu-visionx/VSI-Bench/blob/bdcadb3fea447621a828a24911801faba3587c12/README.md"
+    },
+    {
+      "component": "VSTI evaluation QA",
+      "revision": "27ff0a2ddb5b22c1eb036a4249345e6f00ee8ea1",
+      "license": "UNKNOWN",
+      "distribution": "questions and gold labels not bundled; caller must obtain authorized access; retained model responses and scores are separate",
+      "source": "https://huggingface.co/datasets/Journey9ni/vstibench/tree/27ff0a2ddb5b22c1eb036a4249345e6f00ee8ea1",
+      "evidence": "historical tree contains no README/license; checked current card also has no license declaration"
+    }
+  ]
+}

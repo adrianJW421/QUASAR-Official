@@ -1,0 +1,10 @@
+{
+  "question_membership_and_order": "exact",
+  "question_options_and_format": "exact against historical converted inputs",
+  "decoded_RGB_pixels": "exact; max absolute integer difference 0",
+  "geometry_same_source_float32": {"atol": 0.00001, "rtol": 0.00001, "equal_nan": false},
+  "reference_pose_given_same_geometry": {"atol": 0.00001, "rtol": 0.00001, "equal_nan": false},
+  "base_raw_RGB_vs_new_RGB_cache": "exact generated token sequence and image grids; original Base acceptance code",
+  "scoring": "same existing per-item scoring and task grouping; absolute aggregate difference <= 1e-12",
+  "full_matrix": "not run in this phase; no smoke score substituted"
+}

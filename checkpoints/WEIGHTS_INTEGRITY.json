@@ -1,0 +1,219 @@
+{
+  "schema_version": 2,
+  "package_version": "0.1.2",
+  "hash_definition": "SHA-256 of raw file bytes. Archive hashes verify downloads; model and LoRA-configuration hashes identify the unchanged checkpoint files. No tensor re-serialization.",
+  "weights": [
+    {
+      "id": "W01",
+      "role": "QUASAR SFT+GRPO (all-task GRPO, step 2,048)",
+      "archive": "W01.tar.gz",
+      "archive_bytes": 435088176,
+      "archive_sha256": "cbb877a7d56a4c9b2ef3a6a19cdc107e85688a8378f5a86dd771df826b571a9f",
+      "model_file": {
+        "path": "glow_patch_spatial.pt",
+        "bytes": 470450020,
+        "sha256": "e4278aed5701f6268be4a2d4dd11fdc459c4f72efceaa2067f2d5cd2fd4909d2"
+      },
+      "lora_config": {
+        "path": "qwen_lora_config.json",
+        "bytes": 382,
+        "sha256": "c8a36794b57c7feade6e8c2dcdfd3e8cfe4b4b9f95ea0a0266b5f61716dc9561"
+      },
+      "license": "CC-BY-NC-4.0",
+      "download_link": "TOBEADD",
+      "members": {
+        "LICENSE-QWEN": {
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        "LICENSE-WEIGHTS": {
+          "bytes": 19347,
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+        },
+        "LICENSE_SCOPE.md": {
+          "bytes": 1237,
+          "sha256": "d0020704ae09cdc89f507e2da874d8924656455e491de3cce7db673aa80db4ab"
+        },
+        "NOTICE": {
+          "bytes": 836,
+          "sha256": "4daa0bdff280ac492f0054d6daa1aac05f75dc412888dba6c86c49bf1ed30a8d"
+        },
+        "README.md": {
+          "bytes": 1026,
+          "sha256": "309e3e7a79ba9c1e9409f8fc910754d61eb5f8d66f90f8f3672b3341d2fdce3c"
+        },
+        "glow_patch_spatial.pt": {
+          "bytes": 470450020,
+          "sha256": "e4278aed5701f6268be4a2d4dd11fdc459c4f72efceaa2067f2d5cd2fd4909d2"
+        },
+        "model_spec.json": {
+          "bytes": 1403,
+          "sha256": "fab5ea1d4d8f5f1dd7ea2515663accf16bb1b001e41d9e1b92aee5b8aac65513"
+        },
+        "qwen_lora_config.json": {
+          "bytes": 382,
+          "sha256": "c8a36794b57c7feade6e8c2dcdfd3e8cfe4b4b9f95ea0a0266b5f61716dc9561"
+        }
+      }
+    },
+    {
+      "id": "W02",
+      "role": "QUASAR SFT (step 44,544)",
+      "archive": "W02.tar.gz",
+      "archive_bytes": 437140031,
+      "archive_sha256": "4323f1b29e7f835ce81492d4d7568ee8ccbe353d8cf2949e7c88e03a10e7e817",
+      "model_file": {
+        "path": "glow_patch_spatial.pt",
+        "bytes": 472551578,
+        "sha256": "fe8d492c50d612290fc5706a57b9b31b114c0a25d54454d819cf94eb82e59411"
+      },
+      "lora_config": {
+        "path": "qwen_lora_config.json",
+        "bytes": 382,
+        "sha256": "c8a36794b57c7feade6e8c2dcdfd3e8cfe4b4b9f95ea0a0266b5f61716dc9561"
+      },
+      "license": "CC-BY-NC-4.0",
+      "download_link": "TOBEADD",
+      "members": {
+        "LICENSE-QWEN": {
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        "LICENSE-WEIGHTS": {
+          "bytes": 19347,
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+        },
+        "LICENSE_SCOPE.md": {
+          "bytes": 1237,
+          "sha256": "d0020704ae09cdc89f507e2da874d8924656455e491de3cce7db673aa80db4ab"
+        },
+        "NOTICE": {
+          "bytes": 836,
+          "sha256": "4daa0bdff280ac492f0054d6daa1aac05f75dc412888dba6c86c49bf1ed30a8d"
+        },
+        "README.md": {
+          "bytes": 1008,
+          "sha256": "0b6b178a71697705a75a19966b0a8e500554160ba5f077c64ff4c2d2f958583e"
+        },
+        "glow_patch_spatial.pt": {
+          "bytes": 472551578,
+          "sha256": "fe8d492c50d612290fc5706a57b9b31b114c0a25d54454d819cf94eb82e59411"
+        },
+        "model_spec.json": {
+          "bytes": 1404,
+          "sha256": "dc61d48d959b8416bbb6e0eb6ffb5ace28a7f22409cc2fd9d88a2c3d96518eec"
+        },
+        "qwen_lora_config.json": {
+          "bytes": 382,
+          "sha256": "c8a36794b57c7feade6e8c2dcdfd3e8cfe4b4b9f95ea0a0266b5f61716dc9561"
+        }
+      }
+    },
+    {
+      "id": "W05",
+      "role": "Visual-only SFT+GRPO (all-task GRPO, step 2,048)",
+      "archive": "W05.tar.gz",
+      "archive_bytes": 162031225,
+      "archive_sha256": "17eee19a9f00ecf06d8aade9ca449158e6e026d2db95436f1059bf914fedf12e",
+      "model_file": {
+        "path": "direct_qwen_sft.pt",
+        "bytes": 174765183,
+        "sha256": "d376e99bf132b99e862006ad201ce90dfcdfaef4c3ede3929d896f63b19dd7b3"
+      },
+      "lora_config": {
+        "path": "qwen_lora_config.json",
+        "bytes": 247,
+        "sha256": "0b1692a823562e767668760f451de7ef321c1e0f9a840d4f839ffb4ec937f350"
+      },
+      "license": "CC-BY-NC-4.0",
+      "download_link": "TOBEADD",
+      "members": {
+        "LICENSE-QWEN": {
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        "LICENSE-WEIGHTS": {
+          "bytes": 19347,
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+        },
+        "LICENSE_SCOPE.md": {
+          "bytes": 1237,
+          "sha256": "d0020704ae09cdc89f507e2da874d8924656455e491de3cce7db673aa80db4ab"
+        },
+        "NOTICE": {
+          "bytes": 836,
+          "sha256": "4daa0bdff280ac492f0054d6daa1aac05f75dc412888dba6c86c49bf1ed30a8d"
+        },
+        "README.md": {
+          "bytes": 1021,
+          "sha256": "9067cb9f49705780ed0e8c9d07fbbf159646fc9c8e46e8ac01ed1e4d3d14fbbb"
+        },
+        "direct_qwen_sft.pt": {
+          "bytes": 174765183,
+          "sha256": "d376e99bf132b99e862006ad201ce90dfcdfaef4c3ede3929d896f63b19dd7b3"
+        },
+        "model_spec.json": {
+          "bytes": 1128,
+          "sha256": "b90e0512b23a8b260d52a3fd2c7bea34a8da246d93811a5a1ff32ce09a853f13"
+        },
+        "qwen_lora_config.json": {
+          "bytes": 247,
+          "sha256": "0b1692a823562e767668760f451de7ef321c1e0f9a840d4f839ffb4ec937f350"
+        }
+      }
+    },
+    {
+      "id": "W06",
+      "role": "Visual-only SFT (step 46,592)",
+      "archive": "W06.tar.gz",
+      "archive_bytes": 162014533,
+      "archive_sha256": "511a7befb5189542123fbcd606688f9a2b888851ef921164511fcc6a0ff2fc3c",
+      "model_file": {
+        "path": "direct_qwen_sft.pt",
+        "bytes": 174764671,
+        "sha256": "5a2d29d6eab9f6713337f40f9bd8cbf347520964f34fdb489958fbd09350e861"
+      },
+      "lora_config": {
+        "path": "qwen_lora_config.json",
+        "bytes": 247,
+        "sha256": "0b1692a823562e767668760f451de7ef321c1e0f9a840d4f839ffb4ec937f350"
+      },
+      "license": "CC-BY-NC-4.0",
+      "download_link": "TOBEADD",
+      "members": {
+        "LICENSE-QWEN": {
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+        },
+        "LICENSE-WEIGHTS": {
+          "bytes": 19347,
+          "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+        },
+        "LICENSE_SCOPE.md": {
+          "bytes": 1237,
+          "sha256": "d0020704ae09cdc89f507e2da874d8924656455e491de3cce7db673aa80db4ab"
+        },
+        "NOTICE": {
+          "bytes": 836,
+          "sha256": "4daa0bdff280ac492f0054d6daa1aac05f75dc412888dba6c86c49bf1ed30a8d"
+        },
+        "README.md": {
+          "bytes": 1003,
+          "sha256": "11722962dc460838466a619dc0c74125a4183495b0f9d9d8132964a05d9f4ca2"
+        },
+        "direct_qwen_sft.pt": {
+          "bytes": 174764671,
+          "sha256": "5a2d29d6eab9f6713337f40f9bd8cbf347520964f34fdb489958fbd09350e861"
+        },
+        "model_spec.json": {
+          "bytes": 1129,
+          "sha256": "a54d050cf9abd995e9f59611c3ee0d8deaf2368bc6d0f877aeef9f88b53a7bc0"
+        },
+        "qwen_lora_config.json": {
+          "bytes": 247,
+          "sha256": "0b1692a823562e767668760f451de7ef321c1e0f9a840d4f839ffb4ec937f350"
+        }
+      }
+    }
+  ]
+}

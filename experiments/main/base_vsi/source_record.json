@@ -1,0 +1,37 @@
+{
+  "experiment_id": "M01",
+  "source_kind": "historical_local_self_evaluation",
+  "model_id_recorded": "Qwen/Qwen3-VL-8B-Instruct",
+  "source_collection_date": "2026-09-21",
+  "original_response_rows": 5130,
+  "original_scored_rows": 5130,
+  "original_overall_percent": 59.8247049665833,
+  "display_percent": "59.82",
+  "original_artifacts": [
+    "responses.jsonl",
+    "scored.jsonl",
+    "run_config.json",
+    "summary.json"
+  ],
+  "exported_fields": [
+    "sample_id",
+    "official_id",
+    "prediction_text",
+    "canonical_question_type",
+    "score",
+    "metric"
+  ],
+  "sample_id_mapping": "id_alignment.tsv",
+  "raw_video_protocol_matches_final": false,
+  "option_lists_different_from_final": 671,
+  "remaining_unknowns": [
+    "Resolved model snapshot/revision",
+    "March 17 exact loader and dependency versions",
+    "Actual sampled frames, fps and resolution",
+    "Full decoding configuration and actual dtype"
+  ],
+  "historical_gpu_reproduction_verified": false,
+  "score_chain_cpu_verified": true,
+  "original_per_item_scores_verified": 5130,
+  "score_validation": "validation.json"
+}

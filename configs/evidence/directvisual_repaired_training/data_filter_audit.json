@@ -1,0 +1,40 @@
+{
+  "train": {
+    "input_rows": 426916,
+    "kept_rows": 426916,
+    "skipped": {},
+    "kept_by_answer_type": {
+      "numeric": 119446,
+      "count": 24198,
+      "multiple_choice": 145868,
+      "short_text": 118121,
+      "yes_no": 19283
+    },
+    "kept_by_source": {
+      "vlm3r_canonical_vsi": 163976,
+      "vlm3r_unified_vsti": 109720,
+      "scanqa_sqa3d_msqa": 84984,
+      "sqa3d_loc3r": 68236
+    },
+    "require_patch_geometry": false,
+    "allow_legacy_mca": false,
+    "scannet_frame_root": "${SCANNET_FRAME_ROOT}",
+    "max_visual_frames": 32
+  },
+  "val": {
+    "input_rows": 17651,
+    "kept_rows": 512,
+    "skipped": {},
+    "kept_by_answer_type": {
+      "multiple_choice": 322,
+      "numeric": 190
+    },
+    "kept_by_source": {
+      "vlm3r_canonical_vsi": 512
+    },
+    "require_patch_geometry": false,
+    "allow_legacy_mca": false,
+    "scannet_frame_root": "${SCANNET_FRAME_ROOT}",
+    "max_visual_frames": 32
+  }
+}

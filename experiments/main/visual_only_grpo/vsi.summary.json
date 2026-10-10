@@ -1,0 +1,57 @@
+{
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "score_fraction": 0.6361647746428575,
+  "score_percent": 63.61647746428575,
+  "details": {
+    "count": 5130,
+    "row_weighted_mean": 0.6573489278752471,
+    "official_like_macro_over_present_tasks": 0.6361647746428575,
+    "present_official_tasks": [
+      "object_counting",
+      "object_abs_distance",
+      "object_size_estimation",
+      "room_size_estimation",
+      "object_rel_distance",
+      "object_rel_direction",
+      "route_planning",
+      "obj_appearance_order"
+    ],
+    "missing_official_tasks": [],
+    "task_scores": {
+      "object_counting": 0.7339823008849556,
+      "object_abs_distance": 0.4653477218225419,
+      "object_size_estimation": 0.7408184679958001,
+      "room_size_estimation": 0.6819444444444445,
+      "object_rel_distance": 0.6507042253521127,
+      "object_rel_direction": 0.7812893281053217,
+      "route_planning": 0.4381443298969072,
+      "obj_appearance_order": 0.5970873786407767
+    },
+    "raw_question_type_scores": {
+      "obj_appearance_order": 0.5970873786407767,
+      "object_abs_distance": 0.4653477218225419,
+      "object_counting": 0.7339823008849556,
+      "object_rel_direction_easy": 0.815668202764977,
+      "object_rel_direction_hard": 0.7319034852546917,
+      "object_rel_direction_medium": 0.7962962962962963,
+      "object_rel_distance": 0.6507042253521127,
+      "object_size_estimation": 0.7408184679958001,
+      "room_size_estimation": 0.6819444444444445,
+      "route_planning": 0.4381443298969072
+    },
+    "question_type_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

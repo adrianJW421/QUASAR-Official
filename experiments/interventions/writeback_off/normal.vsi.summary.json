@@ -1,0 +1,57 @@
+{
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "score_fraction": 0.6507979384486432,
+  "score_percent": 65.07979384486433,
+  "details": {
+    "count": 5130,
+    "row_weighted_mean": 0.6730799220272939,
+    "official_like_macro_over_present_tasks": 0.6507979384486432,
+    "present_official_tasks": [
+      "object_counting",
+      "object_abs_distance",
+      "object_size_estimation",
+      "room_size_estimation",
+      "object_rel_distance",
+      "object_rel_direction",
+      "route_planning",
+      "obj_appearance_order"
+    ],
+    "missing_official_tasks": [],
+    "task_scores": {
+      "object_counting": 0.7175221238938053,
+      "object_abs_distance": 0.552877697841725,
+      "object_size_estimation": 0.7262329485834187,
+      "room_size_estimation": 0.7128472222222225,
+      "object_rel_distance": 0.6746478873239437,
+      "object_rel_direction": 0.8084765598963184,
+      "route_planning": 0.4587628865979381,
+      "obj_appearance_order": 0.5550161812297735
+    },
+    "raw_question_type_scores": {
+      "obj_appearance_order": 0.5550161812297735,
+      "object_abs_distance": 0.552877697841725,
+      "object_counting": 0.7175221238938053,
+      "object_rel_direction_easy": 0.8387096774193549,
+      "object_rel_direction_hard": 0.7560321715817694,
+      "object_rel_direction_medium": 0.8306878306878307,
+      "object_rel_distance": 0.6746478873239437,
+      "object_size_estimation": 0.7262329485834187,
+      "room_size_estimation": 0.7128472222222225,
+      "route_planning": 0.4587628865979381
+    },
+    "question_type_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

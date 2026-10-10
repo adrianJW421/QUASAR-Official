@@ -1,0 +1,40 @@
+{
+  "experiment_id": "M01",
+  "historical_generation": {
+    "entry": "historical_raw_video_runner",
+    "argv": [
+      "--vsibench-file",
+      "${M01_ORIGINAL_VSI_JSONL}",
+      "--video-root",
+      "${M01_RAW_VIDEO_ROOT}",
+      "--output-dir",
+      "${M01_OUTPUT_DIR}",
+      "--model-id",
+      "Qwen/Qwen3-VL-8B-Instruct",
+      "--max-new-tokens",
+      "64",
+      "--resume"
+    ],
+    "command_origin": "Retained full-run launch record",
+    "exact_historical_entry_source_available": false,
+    "executable_from_package": false
+  },
+  "cpu_rescoring": {
+    "entry": "quasar-score-retained",
+    "argv": [
+      "--predictions",
+      "experiments/main/base_vsi/predictions.jsonl",
+      "--protocol",
+      "vsi_8task",
+      "--eval-jsonl",
+      "${M01_SCORING_INPUT_JSONL}",
+      "--benchmark",
+      "VSI",
+      "--output",
+      "${M01_SCORE_OUTPUT_JSON}"
+    ]
+  },
+  "scoring_input_schema": "sample_id; question.text/canonical_question_type; answer.type/raw/text/options and numeric_value or option_letter",
+  "id_mapping": "experiments/main/base_vsi/id_alignment.tsv",
+  "generation_parameters_are_historical_records_only": true
+}

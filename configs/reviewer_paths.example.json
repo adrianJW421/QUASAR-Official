@@ -1,0 +1,27 @@
+{
+  "source_root": ".",
+  "run_root": "runs/table12",
+  "backbone": "upstream_models/B01",
+  "weights": {
+    "visual_sft": "upstream_models/W06",
+    "visual_grpo": "upstream_models/W05",
+    "quasar_sft": "upstream_models/W02",
+    "quasar_grpo": "upstream_models/W01"
+  },
+  "vsi": {
+    "qa": "upstream/vsi/test.jsonl",
+    "video_roots": {
+      "arkitscenes": "upstream/vsi/videos/arkitscenes",
+      "scannet": "upstream/vsi/videos/scannet",
+      "scannetpp": "upstream/vsi/videos/scannetpp"
+    }
+  },
+  "vsti": {
+    "qa": "upstream/vsti/27ff0a2ddb5b22c1eb036a4249345e6f00ee8ea1/test.json",
+    "video_root": "upstream/vsti/27ff0a2ddb5b22c1eb036a4249345e6f00ee8ea1"
+  },
+  "cut3r": {
+    "repo": "upstream/CUT3R-8bc15dc92a6d7fd92920b4ec81540d3dec7d3ecf",
+    "weight": "upstream_models/cut3r_512_dpt_4_64.pth"
+  }
+}

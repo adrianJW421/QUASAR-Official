@@ -1,0 +1,56 @@
+{
+  "version": "public-vsi-v1",
+  "description": "New public input settings; paper references are historical comparisons",
+  "smoke_ids": [
+    "official_eval_legacy_vsi::vsi_all_mca__0",
+    "official_eval_legacy_vsi::vsi_all_mca__530",
+    "official_eval_legacy_vsi::vsi_all_mca__1237",
+    "official_eval_legacy_vsi::vsi_all_mca__1506",
+    "official_eval_legacy_vsi::vsi_all_mca__1598",
+    "official_eval_legacy_vsi::vsi_all_mca__1908",
+    "official_eval_legacy_vsi::vsi_all_mca__3209",
+    "official_eval_legacy_vsi::vsi_all_mca__3565",
+    "official_eval_legacy_vsi::vsi_all_mca__3849",
+    "official_eval_legacy_vsi::vsi_all_mca__4962",
+    "official_eval_legacy_vsi::vsi_all_mca__5021",
+    "official_eval_legacy_vsi::vsi_all_mca__5103"
+  ],
+  "base": {
+    "revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+    "frames": 32,
+    "max_pixels": 50176,
+    "dtype": "bfloat16",
+    "attention": "sdpa",
+    "seed": 0,
+    "max_new_tokens": 64,
+    "do_sample": false
+  },
+  "reference": {
+    "version": "public-vsi-reference-v1",
+    "method": "Qwen RGB grounding to current CUT3R patch points",
+    "estimated": true
+  },
+  "cells": {
+    "vsi/base": {
+      "blockers": [],
+      "smoke_blockers": []
+    },
+    "vsi/quasar_sft": {
+      "blockers": [
+        "Frozen sample vsi_1506 failed visual object correspondence and has only one usable station patch; semantic reference acceptance failed. See docs/PUBLIC_VSI.md."
+      ],
+      "smoke_blockers": []
+    },
+    "vsi/quasar_grpo": {
+      "blockers": [
+        "Frozen sample vsi_1506 failed visual object correspondence and has only one usable station patch; semantic reference acceptance failed. See docs/PUBLIC_VSI.md."
+      ],
+      "smoke_blockers": []
+    }
+  },
+  "validation_status": {
+    "base": "READY_FOR_W1",
+    "quasar_sft": "BLOCKED_INPUT",
+    "quasar_grpo": "BLOCKED_INPUT"
+  }
+}

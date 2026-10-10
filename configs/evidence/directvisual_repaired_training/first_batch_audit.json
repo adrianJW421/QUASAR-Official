@@ -1,0 +1,19 @@
+{
+  "qwen_lora_grad_norm": 6.661861592903733,
+  "qwen_lora_nonzero_param_count": 252,
+  "trainable_parameters": 43646976,
+  "missing_required_grad_groups": [],
+  "passed": true,
+  "image_feature_tokens": 2240,
+  "visual_cache_used": true,
+  "answer_label_tokens": 4,
+  "label_audit": [
+    {
+      "label_token_count": 4,
+      "decoded_label_span": "1.1<|im_end|>"
+    }
+  ],
+  "sample_ids": [
+    "vlm3r_unified_vsti::vlm3r_300485"
+  ]
+}

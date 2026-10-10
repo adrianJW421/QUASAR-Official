@@ -1,0 +1,15 @@
+{
+  "experiment_id": "M02",
+  "benchmark": "VSTI",
+  "count": 6042,
+  "protocol": "vsti_5task",
+  "predictions": "predictions.jsonl",
+  "summary": "summary.json",
+  "evaluation_protocol": "configs/evaluation/base_vsti_protocol.json",
+  "source_generation_date": "2026-09-18",
+  "checkpoint": "Qwen3-VL-8B-Instruct base, no trained adapter",
+  "historical_config_matched": true,
+  "generation_entry_binding": "Packaged from both retained full-run shard execution copies; only imports and explicit run-directory paths are adapted. CPU import/help checked; GPU generation is not repeated.",
+  "generation_module": "quasar.base_vsti.inference",
+  "recorded_commands": "configs/base_vsti_commands.json"
+}

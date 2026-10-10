@@ -1,0 +1,29 @@
+{
+  "experiment_id": "M01",
+  "answer_conditions": [
+    {
+      "role": "base_vsi",
+      "rows": 5130,
+      "protocol": "vsi_8task",
+      "score_percent": 59.82470496658328,
+      "historical_score_percent": 59.8247049665833,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "original_per_item_scores_verified": 5130,
+  "original_per_item_score_mismatches": 0,
+  "unique_official_ids": 5130,
+  "unique_package_ids": 5130,
+  "historical_summary_max_error_percent": 0.0,
+  "installed_summary_max_error_percent": 1.4210854715202004e-13,
+  "original_and_installed_scorers_compared": true,
+  "direction_subtypes_equal_weight": true,
+  "eight_tasks_equal_weight": true,
+  "option_list_differences_from_final": 671,
+  "original_tree_denied": true,
+  "inherited_pythonpath": false,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

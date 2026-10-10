@@ -1,0 +1,57 @@
+{
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "score_fraction": 0.6264031530748462,
+  "score_percent": 62.64031530748462,
+  "details": {
+    "count": 5130,
+    "row_weighted_mean": 0.6530409356725173,
+    "official_like_macro_over_present_tasks": 0.6264031530748462,
+    "present_official_tasks": [
+      "object_counting",
+      "object_abs_distance",
+      "object_size_estimation",
+      "room_size_estimation",
+      "object_rel_distance",
+      "object_rel_direction",
+      "route_planning",
+      "obj_appearance_order"
+    ],
+    "missing_official_tasks": [],
+    "task_scores": {
+      "object_counting": 0.698230088495575,
+      "object_abs_distance": 0.5038369304556353,
+      "object_size_estimation": 0.7415529905561371,
+      "room_size_estimation": 0.6135416666666664,
+      "object_rel_distance": 0.6788732394366197,
+      "object_rel_direction": 0.771119979024502,
+      "route_planning": 0.4587628865979381,
+      "obj_appearance_order": 0.5453074433656958
+    },
+    "raw_question_type_scores": {
+      "obj_appearance_order": 0.5453074433656958,
+      "object_abs_distance": 0.5038369304556353,
+      "object_counting": 0.698230088495575,
+      "object_rel_direction_easy": 0.7880184331797235,
+      "object_rel_direction_hard": 0.7158176943699732,
+      "object_rel_direction_medium": 0.8095238095238095,
+      "object_rel_distance": 0.6788732394366197,
+      "object_size_estimation": 0.7415529905561371,
+      "room_size_estimation": 0.6135416666666664,
+      "route_planning": 0.4587628865979381
+    },
+    "question_type_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

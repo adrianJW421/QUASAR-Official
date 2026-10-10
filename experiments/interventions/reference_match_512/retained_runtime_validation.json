@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "record_count": 1536,
+  "expected_count": 1536,
+  "unique_cells": 1536,
+  "mapping_options_identity_all_exact": true,
+  "post_clamp_four_sites_all_exact": true,
+  "fresh_KV_all": true,
+  "first16_parsed_match": 32,
+  "exit_code": 0,
+  "verified_at": "2026-09-22T19:06:31.400286+08:00",
+  "arm_counts_readback": {
+    "target_permuted_seed20260811": 512,
+    "target_permuted_seed20260812": 512,
+    "target_permuted_seed20260813": 512
+  },
+  "baseline_counts_readback": {
+    "own": 512,
+    "zero": 512
+  },
+  "text_matches_published_answer_table": true,
+  "validation_origin": "retained runtime checks plus Stage-1 readback"
+}

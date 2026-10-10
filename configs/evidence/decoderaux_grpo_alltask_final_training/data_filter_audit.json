@@ -1,0 +1,134 @@
+{
+  "train": {
+    "input_rows": 273696,
+    "kept_rows": 273696,
+    "skipped": {},
+    "kept_by_answer_type": {
+      "numeric": 119438,
+      "count": 8390,
+      "multiple_choice": 145868
+    },
+    "kept_by_source": {
+      "vlm3r_canonical_vsi": 163976,
+      "vlm3r_unified_vsti": 109720
+    },
+    "require_patch_geometry": true,
+    "allow_legacy_mca": false,
+    "scannet_frame_root": "${SCANNET_FRAME_ROOT}",
+    "max_visual_frames": 32
+  },
+  "val": {
+    "input_rows": 17651,
+    "kept_rows": 512,
+    "skipped": {},
+    "kept_by_answer_type": {
+      "multiple_choice": 322,
+      "numeric": 190
+    },
+    "kept_by_source": {
+      "vlm3r_canonical_vsi": 512
+    },
+    "require_patch_geometry": true,
+    "allow_legacy_mca": false,
+    "scannet_frame_root": "${SCANNET_FRAME_ROOT}",
+    "max_visual_frames": 32
+  },
+  "visual_cache": {
+    "train": {
+      "split": "train",
+      "rows": 8192,
+      "covered": 8192,
+      "coverage": 1.0,
+      "missing_identity_count": 0,
+      "missing_file_count": 0,
+      "first_missing_identity": [],
+      "first_missing_file": [],
+      "visual_cache_root": "${VISUAL_CACHE_ROOT}",
+      "visual_cache_roots": [
+        "${VISUAL_CACHE_ROOT}",
+        "${EXTRA_VISUAL_CACHE_ROOT}"
+      ]
+    },
+    "val": {
+      "split": "val",
+      "rows": 512,
+      "covered": 512,
+      "coverage": 1.0,
+      "missing_identity_count": 0,
+      "missing_file_count": 0,
+      "first_missing_identity": [],
+      "first_missing_file": [],
+      "visual_cache_root": "${VISUAL_CACHE_ROOT}",
+      "visual_cache_roots": [
+        "${VISUAL_CACHE_ROOT}",
+        "${EXTRA_VISUAL_CACHE_ROOT}"
+      ]
+    }
+  },
+  "qtype_balance": {
+    "enabled": true,
+    "requested_max_groups": 8192,
+    "selected_rows": 8192,
+    "source_qtype_counts": {
+      "object_abs_distance": 46213,
+      "object_size_estimation": 11607,
+      "room_size_estimation": 1844,
+      "object_counting": 8390,
+      "vsti_camera_displacement": 28855,
+      "vsti_camera_movement_direction": 28079,
+      "vsti_camera_obj_abs_dist": 30919,
+      "vsti_camera_obj_rel_dist_v1": 557,
+      "vsti_camera_obj_rel_dist_v2": 2182,
+      "vsti_camera_obj_rel_dist_v3": 7043,
+      "vsti_obj_obj_relative_pos_lr": 6312,
+      "vsti_obj_obj_relative_pos_nf": 3123,
+      "vsti_obj_obj_relative_pos_ud": 2650,
+      "object_rel_direction_easy": 20042,
+      "object_rel_direction_medium": 21413,
+      "object_rel_direction_hard": 21055,
+      "route_planning": 2855,
+      "object_rel_distance": 30557
+    },
+    "selected_qtype_counts": {
+      "vsti_obj_obj_relative_pos_nf": 455,
+      "vsti_camera_obj_rel_dist_v2": 455,
+      "object_rel_direction_hard": 455,
+      "vsti_camera_obj_rel_dist_v3": 455,
+      "route_planning": 455,
+      "object_size_estimation": 455,
+      "object_rel_direction_medium": 455,
+      "object_rel_distance": 455,
+      "object_counting": 456,
+      "vsti_camera_obj_abs_dist": 455,
+      "object_abs_distance": 456,
+      "vsti_camera_displacement": 455,
+      "vsti_obj_obj_relative_pos_lr": 455,
+      "vsti_camera_obj_rel_dist_v1": 455,
+      "object_rel_direction_easy": 455,
+      "vsti_obj_obj_relative_pos_ud": 455,
+      "vsti_camera_movement_direction": 455,
+      "room_size_estimation": 455
+    }
+  },
+  "rl_scope": "all",
+  "numeric_qtypes": [
+    "object_abs_distance",
+    "vsti_camera_displacement",
+    "vsti_camera_obj_abs_dist"
+  ],
+  "all_task_supported_qtypes": [
+    "obj_appearance_order",
+    "object_abs_distance",
+    "object_counting",
+    "object_rel_direction_easy",
+    "object_rel_direction_hard",
+    "object_rel_direction_medium",
+    "object_rel_distance",
+    "object_size_estimation",
+    "room_size_estimation",
+    "route_planning",
+    "vsti_camera_displacement",
+    "vsti_camera_movement_direction",
+    "vsti_camera_obj_abs_dist"
+  ]
+}

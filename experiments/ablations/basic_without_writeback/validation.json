@@ -1,0 +1,24 @@
+{
+  "experiment_id": "A02",
+  "answer_conditions": [
+    {
+      "role": "noflow_vsi",
+      "rows": 5130,
+      "protocol": "vsi_8task",
+      "score_percent": 63.669281494811116,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "noflow_vsti",
+      "rows": 6042,
+      "protocol": "vsti_5task",
+      "score_percent": 60.752027951289854,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

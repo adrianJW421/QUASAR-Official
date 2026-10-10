@@ -1,0 +1,31 @@
+{
+  "count": 6042,
+  "protocol": "vsti_9subtype",
+  "score_fraction": 0.6864244202836579,
+  "score_percent": 68.64244202836579,
+  "details": {
+    "group_scores": {
+      "vsti_camera_displacement": 0.42324195470798615,
+      "vsti_camera_movement_direction": 0.6210295728368017,
+      "vsti_camera_obj_abs_dist": 0.388839779005525,
+      "vsti_camera_obj_rel_dist_v1": 0.6,
+      "vsti_camera_obj_rel_dist_v2": 0.6644067796610169,
+      "vsti_camera_obj_rel_dist_v3": 0.7519230769230769,
+      "vsti_obj_obj_relative_pos_lr": 0.9041322314049587,
+      "vsti_obj_obj_relative_pos_nf": 0.8758992805755396,
+      "vsti_obj_obj_relative_pos_ud": 0.9483471074380165
+    },
+    "group_counts": {
+      "vsti_camera_displacement": 839,
+      "vsti_camera_movement_direction": 913,
+      "vsti_camera_obj_abs_dist": 905,
+      "vsti_camera_obj_rel_dist_v1": 110,
+      "vsti_camera_obj_rel_dist_v2": 590,
+      "vsti_camera_obj_rel_dist_v3": 1040,
+      "vsti_obj_obj_relative_pos_lr": 605,
+      "vsti_obj_obj_relative_pos_nf": 556,
+      "vsti_obj_obj_relative_pos_ud": 484
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

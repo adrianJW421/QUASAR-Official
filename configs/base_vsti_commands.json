@@ -1,0 +1,40 @@
+{
+  "commands": [
+    {
+      "role": "base_vsti_shard0",
+      "module": "quasar.base_vsti.inference",
+      "argv": [
+        "--run-dir",
+        "${BASE_VSTI_RUN_DIR}",
+        "--attempt",
+        "${BASE_VSTI_ATTEMPT_0}",
+        "--shard",
+        "0",
+        "--shards",
+        "2"
+      ],
+      "historical_fields_missing": [],
+      "unsupported_saved_fields": [],
+      "not_expressible_saved_fields": [],
+      "path_adaptation": "Original fixed output/input directory is now supplied explicitly."
+    },
+    {
+      "role": "base_vsti_shard1",
+      "module": "quasar.base_vsti.inference",
+      "argv": [
+        "--run-dir",
+        "${BASE_VSTI_RUN_DIR}",
+        "--attempt",
+        "${BASE_VSTI_ATTEMPT_1}",
+        "--shard",
+        "1",
+        "--shards",
+        "2"
+      ],
+      "historical_fields_missing": [],
+      "unsupported_saved_fields": [],
+      "not_expressible_saved_fields": [],
+      "path_adaptation": "Original fixed output/input directory is now supplied explicitly."
+    }
+  ]
+}

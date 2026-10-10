@@ -1,0 +1,26 @@
+{
+  "format": "native_qwen3vl2b_glow_patch_spatial_decoder_aux_generate_eval_v1",
+  "eval_rows": 5598,
+  "raw_rows": 5598,
+  "unsharded_eval_rows": 5598,
+  "source_counts": {
+    "vsti_official_row32": 5598
+  },
+  "question_type_counts": {
+    "vsti_camera_obj_rel_dist_v2": 590,
+    "vsti_camera_movement_direction": 913,
+    "vsti_camera_obj_abs_dist": 905,
+    "vsti_camera_obj_rel_dist_v3": 1040,
+    "vsti_obj_obj_relative_pos_nf": 412,
+    "vsti_obj_obj_relative_pos_ud": 357,
+    "vsti_camera_obj_rel_dist_v1": 110,
+    "vsti_obj_obj_relative_pos_lr": 432,
+    "vsti_camera_displacement": 839
+  },
+  "checkpoint_spatial_query_contract": {
+    "spatial_query_tokens_enabled": true,
+    "tokens_inserted_per_sample": 4,
+    "global_readout_source": "query_token_mean",
+    "spatial_query_sigreg_loss_weight": 0.0
+  }
+}

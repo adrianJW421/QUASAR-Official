@@ -1,0 +1,25 @@
+{
+  "vsi": {
+    "revision": "bdcadb3fea447621a828a24911801faba3587c12",
+    "count": 5130,
+    "qa_sha256": "aa3ff8cc2010e555f4f865ff96483812ec0b275005b68562f53bb114ad4db9db",
+    "members": "data/manifests/eval_jsonl_members.tsv",
+    "frames": "data/manifests/table12_vsi_frames.jsonl",
+    "smoke_ids": [
+      "official_eval_legacy_vsi::vsi_all_mca__0",
+      "official_eval_legacy_vsi::vsi_all_mca__1598",
+      "official_eval_legacy_vsi::vsi_all_mca__2947"
+    ]
+  },
+  "vsti": {
+    "revision": "27ff0a2ddb5b22c1eb036a4249345e6f00ee8ea1",
+    "count": 6042,
+    "qa_sha256": "cac3cd3732f73c8f929c639a1734c29018affb829c490018e33702481a677033",
+    "members": "data/manifests/eval_jsonl_29_members.tsv",
+    "frames": "data/manifests/table12_vsti_frames.jsonl",
+    "smoke_ids": [
+      "vsti_official_row32::vsti_test__0",
+      "vsti_official_row32::vsti_test__3202"
+    ]
+  }
+}

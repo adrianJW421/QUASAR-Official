@@ -1,0 +1,186 @@
+{
+  "base_revision": "0c351dd01ed87e9c1b53cbc748cba10e6187ff3b",
+  "vsti/base": {
+    "weight_id": "official",
+    "step": null,
+    "recipe": "base_vsti",
+    "paper_score_percent": 46.30658700148052,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/base_vsti/summary.json",
+    "paper_task_scores": {
+      "camera_displacement": 0.26662693682955924,
+      "camera_movement_direction": 0.3603504928806134,
+      "camera_object_absolute_distance": 0.2934806629834254,
+      "camera_object_relative_distance": 0.6045977011494252,
+      "object_object_relative_position": 0.790273556231003
+    }
+  },
+  "vsti/visual_sft": {
+    "weight_id": "W06",
+    "step": 46592,
+    "recipe": "directvisual_repaired_vsti",
+    "paper_score_percent": 61.85615333333874,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/visual_only_sft/vsti.summary.json",
+    "paper_task_scores": {
+      "camera_displacement": 0.4259833134684146,
+      "camera_movement_direction": 0.6297918948521358,
+      "camera_object_absolute_distance": 0.39160220994475137,
+      "camera_object_relative_distance": 0.7396551724137931,
+      "object_object_relative_position": 0.9057750759878419
+    }
+  },
+  "vsti/visual_grpo": {
+    "weight_id": "W05",
+    "step": 2048,
+    "recipe": "directvisual_grpo_final_vsti",
+    "paper_score_percent": 62.26049063870269,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/visual_only_grpo/vsti.summary.json",
+    "paper_task_scores": {
+      "camera_displacement": 0.4191895113230033,
+      "camera_movement_direction": 0.6626506024096386,
+      "camera_object_absolute_distance": 0.39646408839778996,
+      "camera_object_relative_distance": 0.735632183908046,
+      "object_object_relative_position": 0.8990881458966565
+    }
+  },
+  "vsti/quasar_sft": {
+    "weight_id": "W02",
+    "step": 44544,
+    "recipe": "decoderaux_repaired_vsti",
+    "paper_score_percent": 65.1114995188606,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/quasar_sft/vsti.summary.json",
+    "paper_task_scores": {
+      "camera_displacement": 0.4087008343265792,
+      "camera_movement_direction": 0.8214676889375685,
+      "camera_object_absolute_distance": 0.38795580110497263,
+      "camera_object_relative_distance": 0.7304597701149426,
+      "object_object_relative_position": 0.9069908814589666
+    }
+  },
+  "vsti/quasar_grpo": {
+    "weight_id": "W01",
+    "step": 2048,
+    "recipe": "decoderaux_grpo_alltask_final_vsti",
+    "paper_score_percent": 66.18587065462481,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/quasar_grpo/vsti.summary.json",
+    "paper_task_scores": {
+      "camera_displacement": 0.44183551847437447,
+      "camera_movement_direction": 0.7995618838992333,
+      "camera_object_absolute_distance": 0.41723756906077364,
+      "camera_object_relative_distance": 0.7333333333333333,
+      "object_object_relative_position": 0.9173252279635259
+    }
+  },
+  "vsi/base": {
+    "weight_id": "official",
+    "step": null,
+    "recipe": "base_vsi",
+    "paper_score_percent": 59.82470496658328,
+    "blockers": [
+      "M01 historical raw-video loader, model revision and sampled frames are missing"
+    ],
+    "smoke_blockers": [
+      "M01 historical raw-video loader, model revision and sampled frames are missing"
+    ],
+    "paper_summary": "experiments/main/base_vsi/summary.json",
+    "paper_task_scores": {
+      "object_counting": 0.6923893805309737,
+      "object_abs_distance": 0.5202637889688252,
+      "object_size_estimation": 0.7586568730325274,
+      "room_size_estimation": 0.6038194444444447,
+      "object_rel_distance": 0.6183098591549295,
+      "object_rel_direction": 0.5260939190426924,
+      "route_planning": 0.33505154639175255,
+      "obj_appearance_order": 0.7313915857605178
+    }
+  },
+  "vsi/visual_sft": {
+    "weight_id": "W06",
+    "step": 46592,
+    "recipe": "directvisual_repaired_vsi",
+    "paper_score_percent": 62.79313354319813,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/visual_only_sft/vsi.summary.json",
+    "paper_task_scores": {
+      "object_counting": 0.720353982300885,
+      "object_abs_distance": 0.44999999999999946,
+      "object_size_estimation": 0.7431269674711414,
+      "room_size_estimation": 0.6625000000000001,
+      "object_rel_distance": 0.6338028169014085,
+      "object_rel_direction": 0.7506268473866271,
+      "route_planning": 0.44329896907216493,
+      "obj_appearance_order": 0.6197411003236246
+    }
+  },
+  "vsi/visual_grpo": {
+    "weight_id": "W05",
+    "step": 2048,
+    "recipe": "directvisual_grpo_final_vsi",
+    "paper_score_percent": 63.61647746428575,
+    "blockers": [],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/visual_only_grpo/vsi.summary.json",
+    "paper_task_scores": {
+      "object_counting": 0.7339823008849556,
+      "object_abs_distance": 0.4653477218225419,
+      "object_size_estimation": 0.7408184679958001,
+      "room_size_estimation": 0.6819444444444445,
+      "object_rel_distance": 0.6507042253521127,
+      "object_rel_direction": 0.7812893281053217,
+      "route_planning": 0.4381443298969072,
+      "obj_appearance_order": 0.5970873786407767
+    }
+  },
+  "vsi/quasar_sft": {
+    "weight_id": "W02",
+    "step": 44544,
+    "recipe": "decoderaux_repaired_vsi",
+    "paper_score_percent": 64.85689998828403,
+    "blockers": [
+      "Semantic question viewpoints lack an authoritative transform to regenerated CUT3R coordinates (1162 rows)"
+    ],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/quasar_sft/vsi.summary.json",
+    "paper_task_scores": {
+      "object_counting": 0.7083185840707961,
+      "object_abs_distance": 0.5268585131894482,
+      "object_size_estimation": 0.7437565582371444,
+      "room_size_estimation": 0.6902777777777777,
+      "object_rel_distance": 0.6746478873239437,
+      "object_rel_direction": 0.8272603226767371,
+      "route_planning": 0.4381443298969072,
+      "obj_appearance_order": 0.5792880258899676
+    }
+  },
+  "vsi/quasar_grpo": {
+    "weight_id": "W01",
+    "step": 2048,
+    "recipe": "decoderaux_grpo_alltask_final_vsi",
+    "paper_score_percent": 65.36470118814256,
+    "blockers": [
+      "Semantic question viewpoints lack an authoritative transform to regenerated CUT3R coordinates (1162 rows)"
+    ],
+    "smoke_blockers": [],
+    "paper_summary": "experiments/main/quasar_grpo/vsi.summary.json",
+    "paper_task_scores": {
+      "object_counting": 0.7300884955752208,
+      "object_abs_distance": 0.5369304556354904,
+      "object_size_estimation": 0.7581322140608583,
+      "room_size_estimation": 0.7086805555555562,
+      "object_rel_distance": 0.6549295774647887,
+      "object_rel_direction": 0.8035649652444602,
+      "route_planning": 0.4381443298969072,
+      "obj_appearance_order": 0.598705501618123
+    }
+  }
+}

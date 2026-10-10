@@ -1,0 +1,48 @@
+{
+  "experiment_id": "I06",
+  "answer_conditions": [
+    {
+      "role": "I06_own",
+      "rows": 512,
+      "protocol": "exact_micro",
+      "score_percent": 81.0546875,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I06_zero",
+      "rows": 512,
+      "protocol": "exact_micro",
+      "score_percent": 76.171875,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I06_permuted_seed20260811",
+      "rows": 512,
+      "protocol": "exact_micro",
+      "score_percent": 76.7578125,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I06_permuted_seed20260812",
+      "rows": 512,
+      "protocol": "exact_micro",
+      "score_percent": 76.171875,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I06_permuted_seed20260813",
+      "rows": 512,
+      "protocol": "exact_micro",
+      "score_percent": 76.953125,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

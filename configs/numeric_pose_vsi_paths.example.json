@@ -1,0 +1,8 @@
+{
+  "DECODERAUX_GRPO_ALLTASK_FINAL_2048": "upstream_models/W01",
+  "EVAL_JSONL_32": "runs/input/vsi/inference.jsonl",
+  "OUTPUT_DIR_42": "runs/pose_current",
+  "QWEN_MODEL_PATH": "upstream_models/B01",
+  "SCANNET_FRAME_ROOT": "runs/empty_depth",
+  "VISUAL_CACHE_ROOT_38": "runs/input/vsi/features"
+}

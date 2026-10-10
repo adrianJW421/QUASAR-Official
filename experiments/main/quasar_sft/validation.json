@@ -1,0 +1,24 @@
+{
+  "experiment_id": "M04",
+  "answer_conditions": [
+    {
+      "role": "decoderaux_repaired_vsi",
+      "rows": 5130,
+      "protocol": "vsi_8task",
+      "score_percent": 64.85689998828403,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "decoderaux_repaired_vsti",
+      "rows": 6042,
+      "protocol": "vsti_5task",
+      "score_percent": 65.1114995188606,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

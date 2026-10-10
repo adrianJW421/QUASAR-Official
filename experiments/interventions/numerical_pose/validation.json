@@ -1,0 +1,88 @@
+{
+  "experiment_id": "I05",
+  "answer_conditions": [
+    {
+      "role": "I05_target_true",
+      "rows": 5598,
+      "protocol": "vsti_5task",
+      "score_percent": 66.281622445977,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_true_revised5292",
+      "rows": 5292,
+      "protocol": "vsti_9subtype",
+      "score_percent": 74.06129693197171,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_hard_off",
+      "rows": 5598,
+      "protocol": "vsti_5task",
+      "score_percent": 61.60020856325308,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_hard_off_revised5292",
+      "rows": 5292,
+      "protocol": "vsti_9subtype",
+      "score_percent": 72.07567596920586,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_permuted_seed20260811",
+      "rows": 5598,
+      "protocol": "vsti_5task",
+      "score_percent": 61.947162636292894,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_permuted_seed20260811_revised5292",
+      "rows": 5292,
+      "protocol": "vsti_9subtype",
+      "score_percent": 71.7212027182042,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_permuted_seed20260812",
+      "rows": 5598,
+      "protocol": "vsti_5task",
+      "score_percent": 61.808990005403274,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_permuted_seed20260812_revised5292",
+      "rows": 5292,
+      "protocol": "vsti_9subtype",
+      "score_percent": 72.30523602401654,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_permuted_seed20260813",
+      "rows": 5598,
+      "protocol": "vsti_5task",
+      "score_percent": 61.63283565653818,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I05_target_permuted_seed20260813_revised5292",
+      "rows": 5292,
+      "protocol": "vsti_9subtype",
+      "score_percent": 71.47080631446883,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

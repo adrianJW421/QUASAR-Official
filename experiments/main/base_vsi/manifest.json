@@ -1,0 +1,28 @@
+{
+  "experiment_id": "M01",
+  "status": "packaged_cpu_verified",
+  "benchmark": "VSI",
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "predictions": "predictions.jsonl",
+  "summary": "summary.json",
+  "historical_summary": "historical.summary.json",
+  "id_alignment": "id_alignment.tsv",
+  "evaluation_config": "configs/evaluation/base_vsi_run_config.json",
+  "evaluation_protocol": "configs/evaluation/base_vsi_protocol.json",
+  "recorded_commands": "configs/base_vsi_commands.json",
+  "source_record": "source_record.json",
+  "checkpoint": "Qwen3-VL-8B-Instruct, historical raw-video Base evaluation",
+  "historical_generation_dates": [
+    "2026-03-17",
+    "2026-03-18"
+  ],
+  "remaining_unknowns": [
+    "Resolved model snapshot/revision",
+    "March 17 exact loader and dependency versions",
+    "Actual sampled frames, fps and resolution",
+    "Full decoding configuration and actual dtype"
+  ],
+  "validation": "validation.json",
+  "original_overall_percent": 59.8247049665833
+}

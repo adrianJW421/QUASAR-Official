@@ -1,0 +1,40 @@
+{
+  "experiment_id": "I01",
+  "answer_conditions": [
+    {
+      "role": "I01_normal_vsi",
+      "rows": 5130,
+      "protocol": "vsi_8task",
+      "score_percent": 65.07979384486433,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I01_zero_vsi",
+      "rows": 5130,
+      "protocol": "vsi_8task",
+      "score_percent": 63.466278168584175,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I01_normal_vsti",
+      "rows": 6042,
+      "protocol": "vsti_9subtype",
+      "score_percent": 72.87455371649028,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    },
+    {
+      "role": "I01_zero_vsti",
+      "rows": 6042,
+      "protocol": "vsti_9subtype",
+      "score_percent": 68.64244202836579,
+      "verification": "installed scorer against the original gold labels; label sources are listed in data/TERMS.md",
+      "passed": true
+    }
+  ],
+  "all_condition_checks_passed": true,
+  "new_model_answers_generated": false,
+  "gpu_reproduction_checked": false
+}

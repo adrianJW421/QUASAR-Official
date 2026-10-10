@@ -1,0 +1,22 @@
+{
+  "source_row": 1,
+  "sample_id": "synthetic_teaching::station",
+  "video_id": "teaching",
+  "source": "Teaching coordinates only; not a benchmark annotation",
+  "kind": "synthetic_teaching",
+  "source_gauge": "cut3r_reconstruction:teaching",
+  "geometry_gauge": "cut3r_reconstruction:teaching",
+  "source_units": "arbitrary reconstruction units",
+  "geometry_units": "arbitrary reconstruction units",
+  "frame_ids": [10],
+  "station_point": [1, 0, 0],
+  "station_offset": [0, 0, 1],
+  "facing_point": [1, 0, 4],
+  "up": [0, -1, 0],
+  "source_to_geometry": {
+    "scale": 1,
+    "rotation": [[1, 0, 0], [0, 1, 0], [0, 0, 1]],
+    "translation": [0, 0, 0],
+    "source": "Same synthetic reconstruction coordinates"
+  }
+}

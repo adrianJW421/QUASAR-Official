@@ -1,0 +1,57 @@
+{
+  "count": 5130,
+  "protocol": "vsi_8task",
+  "score_fraction": 0.6485689998828402,
+  "score_percent": 64.85689998828403,
+  "details": {
+    "count": 5130,
+    "row_weighted_mean": 0.6750877192982483,
+    "official_like_macro_over_present_tasks": 0.6485689998828402,
+    "present_official_tasks": [
+      "object_counting",
+      "object_abs_distance",
+      "object_size_estimation",
+      "room_size_estimation",
+      "object_rel_distance",
+      "object_rel_direction",
+      "route_planning",
+      "obj_appearance_order"
+    ],
+    "missing_official_tasks": [],
+    "task_scores": {
+      "object_counting": 0.7083185840707961,
+      "object_abs_distance": 0.5268585131894482,
+      "object_size_estimation": 0.7437565582371444,
+      "room_size_estimation": 0.6902777777777777,
+      "object_rel_distance": 0.6746478873239437,
+      "object_rel_direction": 0.8272603226767371,
+      "route_planning": 0.4381443298969072,
+      "obj_appearance_order": 0.5792880258899676
+    },
+    "raw_question_type_scores": {
+      "obj_appearance_order": 0.5792880258899676,
+      "object_abs_distance": 0.5268585131894482,
+      "object_counting": 0.7083185840707961,
+      "object_rel_direction_easy": 0.8709677419354839,
+      "object_rel_direction_hard": 0.7774798927613941,
+      "object_rel_direction_medium": 0.8333333333333334,
+      "object_rel_distance": 0.6746478873239437,
+      "object_size_estimation": 0.7437565582371444,
+      "room_size_estimation": 0.6902777777777777,
+      "route_planning": 0.4381443298969072
+    },
+    "question_type_counts": {
+      "object_counting": 565,
+      "object_size_estimation": 953,
+      "room_size_estimation": 288,
+      "object_abs_distance": 834,
+      "object_rel_direction_hard": 373,
+      "object_rel_direction_medium": 378,
+      "object_rel_direction_easy": 217,
+      "object_rel_distance": 710,
+      "obj_appearance_order": 618,
+      "route_planning": 194
+    }
+  },
+  "verification": "rescored_against_retained_original_answers"
+}

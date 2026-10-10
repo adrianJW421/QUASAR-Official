@@ -1,0 +1,32 @@
+{
+  "train": {
+    "split": "train",
+    "rows": 426916,
+    "covered": 426916,
+    "coverage": 1.0,
+    "missing_identity_count": 0,
+    "missing_file_count": 0,
+    "first_missing_identity": [],
+    "first_missing_file": [],
+    "visual_cache_root": "${VISUAL_CACHE_ROOT}",
+    "visual_cache_roots": [
+      "${VISUAL_CACHE_ROOT}",
+      "${EXTRA_VISUAL_CACHE_ROOT}"
+    ]
+  },
+  "val": {
+    "split": "val",
+    "rows": 512,
+    "covered": 512,
+    "coverage": 1.0,
+    "missing_identity_count": 0,
+    "missing_file_count": 0,
+    "first_missing_identity": [],
+    "first_missing_file": [],
+    "visual_cache_root": "${VISUAL_CACHE_ROOT}",
+    "visual_cache_roots": [
+      "${VISUAL_CACHE_ROOT}",
+      "${EXTRA_VISUAL_CACHE_ROOT}"
+    ]
+  }
+}

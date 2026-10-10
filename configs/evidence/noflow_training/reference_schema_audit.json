@@ -1,0 +1,120 @@
+{
+  "train": {
+    "split": "train",
+    "reference_schema": "simple3",
+    "rows": 426916,
+    "raw_reference_condition_counts": {
+      "object_relation_reference": 78817,
+      "canonical_bev_scene_pose": 21841,
+      "target_camera_pose": 107378,
+      "global_scene_reference": 17614,
+      "semantic_query_pose": 201266
+    },
+    "routed_reference_type_counts": {
+      "canonical_bev_scene_pose": 115930,
+      "target_camera_pose": 109720,
+      "semantic_query_pose": 201266
+    },
+    "by_canonical_question_type": {
+      "msqa_multiview_spatial_qa": {
+        "semantic_query_pose": 67665
+      },
+      "object_abs_distance": {
+        "canonical_bev_scene_pose": 46213
+      },
+      "object_counting": {
+        "canonical_bev_scene_pose": 8390
+      },
+      "object_rel_direction_easy": {
+        "semantic_query_pose": 20042
+      },
+      "object_rel_direction_hard": {
+        "semantic_query_pose": 21055
+      },
+      "object_rel_direction_medium": {
+        "semantic_query_pose": 21413
+      },
+      "object_rel_distance": {
+        "canonical_bev_scene_pose": 30557
+      },
+      "object_size_estimation": {
+        "canonical_bev_scene_pose": 11607
+      },
+      "room_size_estimation": {
+        "canonical_bev_scene_pose": 1844
+      },
+      "route_planning": {
+        "semantic_query_pose": 2855
+      },
+      "scanqa_open_spatial_qa": {
+        "canonical_bev_scene_pose": 17319
+      },
+      "sqa3d_can": {
+        "semantic_query_pose": 6428
+      },
+      "sqa3d_how": {
+        "semantic_query_pose": 10290
+      },
+      "sqa3d_is": {
+        "semantic_query_pose": 13088
+      },
+      "sqa3d_others": {
+        "semantic_query_pose": 11619
+      },
+      "sqa3d_what": {
+        "semantic_query_pose": 21029
+      },
+      "sqa3d_which": {
+        "semantic_query_pose": 5782
+      },
+      "vsti_camera_displacement": {
+        "target_camera_pose": 28855
+      },
+      "vsti_camera_movement_direction": {
+        "target_camera_pose": 28079
+      },
+      "vsti_camera_obj_abs_dist": {
+        "target_camera_pose": 30919
+      },
+      "vsti_camera_obj_rel_dist_v1": {
+        "target_camera_pose": 557
+      },
+      "vsti_camera_obj_rel_dist_v2": {
+        "target_camera_pose": 2182
+      },
+      "vsti_camera_obj_rel_dist_v3": {
+        "target_camera_pose": 7043
+      },
+      "vsti_obj_obj_relative_pos_lr": {
+        "target_camera_pose": 6312
+      },
+      "vsti_obj_obj_relative_pos_nf": {
+        "target_camera_pose": 3123
+      },
+      "vsti_obj_obj_relative_pos_ud": {
+        "target_camera_pose": 2650
+      }
+    }
+  },
+  "val": {
+    "split": "val",
+    "reference_schema": "simple3",
+    "rows": 512,
+    "raw_reference_condition_counts": {
+      "semantic_query_pose": 322,
+      "object_relation_reference": 190
+    },
+    "routed_reference_type_counts": {
+      "semantic_query_pose": 322,
+      "canonical_bev_scene_pose": 190
+    },
+    "by_canonical_question_type": {
+      "object_abs_distance": {
+        "canonical_bev_scene_pose": 190
+      },
+      "route_planning": {
+        "semantic_query_pose": 322
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+data_id	rows	role	members	qa	native_delivery	geometry_missing	cache_missing	target_dimensions_17	target_dimensions_14	target_dimensions_7
+train_jsonl	426916	basic_training,decoderaux_grpo_alltask_final_training,decoderaux_repaired_training,directvisual_grpo_final_training,directvisual_repaired_training,noflow_training	sft_426916_members.tsv	annotations/sft_426916_qa.jsonl	authorized_local_preparation	0	0	296054	0	130862
+val_jsonl	17651	basic_training,decoderaux_grpo_alltask_final_training,decoderaux_repaired_training,directvisual_grpo_final_training,directvisual_repaired_training,noflow_training	validation_17651_members.tsv	annotations/validation_17651_qa.jsonl	authorized_local_preparation	0	0	9804	0	7847
+eval_jsonl	5130	directvisual_repaired_vsi	eval_jsonl_members.tsv		authorized_local_preparation	0	0	0	0	0
+eval_jsonl_29	6042	directvisual_repaired_vsti	eval_jsonl_29_members.tsv		authorized_local_preparation	0	0	0	0	0
+eval_jsonl_32	5130	I01_normal_vsi,I01_zero_vsi,decoderaux_grpo_alltask_final_vsi,decoderaux_repaired_vsi	eval_jsonl_32_members.tsv		authorized_local_preparation	0	0	5112	18	0
+eval_jsonl_34	6042	decoderaux_repaired_vsti	eval_jsonl_34_members.tsv		authorized_local_preparation	0	0	5655	387	0
+eval_jsonl_36	5130	directvisual_grpo_final_vsi	eval_jsonl_36_members.tsv		authorized_local_preparation	0	0	0	0	0
+eval_jsonl_39	6042	directvisual_grpo_final_vsti	eval_jsonl_39_members.tsv		authorized_local_preparation	0	0	0	0	0
+eval_jsonl_43	6042	decoderaux_grpo_alltask_final_vsti	eval_jsonl_43_members.tsv		authorized_local_preparation	0	0	5655	387	0
+eval_jsonl_45	5130	basic_vsi	eval_jsonl_45_members.tsv		authorized_local_preparation	0	0	5112	18	0
+eval_jsonl_47	6042	basic_vsti	eval_jsonl_47_members.tsv		authorized_local_preparation	0	0	5655	387	0
+eval_jsonl_49	5130	noflow_vsi	eval_jsonl_49_members.tsv		authorized_local_preparation	0	0	5112	18	0
+eval_jsonl_51	6042	noflow_vsti	eval_jsonl_51_members.tsv		authorized_local_preparation	0	0	5655	387	0
+original_eval_jsonl	6042		original_eval_jsonl_members.tsv		authorized_local_preparation	0	0	0	0	0
+eval_jsonl_57	6042	I01_normal_vsti	eval_jsonl_57_members.tsv		authorized_local_preparation	0	0	5655	387	0
+eval_jsonl_59	6042	I01_zero_vsti	eval_jsonl_59_members.tsv		authorized_local_preparation	0	0	5655	387	0
+eval_jsonl_61	5598	I05_target_hard_off,I05_target_permuted_seed20260811,I05_target_permuted_seed20260812,I05_target_permuted_seed20260813,I05_target_true	eval_jsonl_61_members.tsv		authorized_local_preparation	0	0	5211	387	0
+additional_000	5292		additional_000_members.tsv		authorized_local_preparation	0	0	4906	386	0
+revision5736	5736		revision5736_members.tsv		authorized_local_preparation	0	0	5350	386	0
+base_vsti_rgb_only	6042	base_vsti_shard0,base_vsti_shard1	base_vsti_6042_members.tsv		authorized_frozen_Base_run_dir	0	0	0	0	0

@@ -1,0 +1,974 @@
+{
+  "verification": "retained historical scene-cluster intervals; observed deltas checked against rescored answers",
+  "score_unit": "fraction",
+  "comparisons": {
+    "target_hard_off": {
+      "base_arm": "target_true",
+      "protocol": "target_legacy6042_parser_valid_subset_5598",
+      "bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.0551133626967124,
+              -0.038845744500626514
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.04681413882723928
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.057381392771906486,
+              -0.022568438284404822
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03969010727056027
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.1710239651416121,
+              -0.11525479880409047
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.1423877327491786
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.03865001915271327,
+              -0.004528540115301134
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.021546961325967118
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.09735511344733519,
+              0.03371744126659851
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.027272727272727226
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.03747542917048888,
+              0.0172180056149845
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.008474576271186418
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.03368623676612126,
+              0.0027755953789558026
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01538461538461533
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.03981290543201181,
+              0.0069934154630416105
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01620370370370372
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.04301307007786426,
+              -0.0024208709722481217
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.021844660194174748
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.027174323525548414,
+              0.003105831930496757
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.011204481792717158
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.0490318056609457,
+              -0.03241535127940986
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.040514469453376
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260816,
+        "strata": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 110,
+          "camera_obj_rel_dist_v2": 590,
+          "camera_obj_rel_dist_v3": 1040,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      },
+      "revision5736_intersection_bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.02864824731987246,
+              -0.010646813396786517
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01985620962765855
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.061792452830188804,
+              -0.03246698217037191
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.04705882352941182
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.17012052497824362,
+              -0.1143790849673203
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.1423877327491786
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.024559867367454018,
+              0.012238430126485313
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005966850828728831
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              0.009615384615384581,
+              0.08792016806722679
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.04395604395604402
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.0021282315259666534,
+              0.05179305301317249
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024340770791075106
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.02372562508166599,
+              0.018916474357348723
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.002336448598130869
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.04063299923315363,
+              0.006944444444444423
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01620370370370372
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.04255319148936165,
+              -0.0025313267225711995
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.021844660194174748
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.027093596059113215,
+              0.003003229132747245
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.011204481792717158
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.04296788900286492,
+              -0.025491643393133298
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03412698412698478
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260916,
+        "strata": {
+          "camera_displacement": 833,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 91,
+          "camera_obj_rel_dist_v2": 493,
+          "camera_obj_rel_dist_v3": 856,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      }
+    },
+    "target_permuted_seed20260811": {
+      "base_arm": "target_true",
+      "protocol": "target_legacy6042_parser_valid_subset_5598",
+      "bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.05143963283763508,
+              -0.03523419290110367
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0433445980968411
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.026824538809606828,
+              0.0027518607123869
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.012157330154946966
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.20044052863436124,
+              -0.1411378555798688
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.1708652792990143
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.0257493353782594,
+              0.006595238095238261
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.009834254143646526
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.03603874959296654,
+              0.08046440489432698
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.018181818181818188
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.04006968641114983,
+              0.0017667844522968323
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01864406779661021
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.021463710687527063,
+              0.012220486650480748
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.004807692307692291
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.036319612590798966,
+              0.0024391734748643347
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01620370370370372
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.0440771349862259,
+              -0.007008530754183859
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.024271844660194164
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.01728395061728394,
+              0.005449963520495488
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0056022408963586345
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.04484390008506334,
+              -0.029582302092902923
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03717399071096794
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260817,
+        "strata": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 110,
+          "camera_obj_rel_dist_v2": 590,
+          "camera_obj_rel_dist_v3": 1040,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      },
+      "revision5736_intersection_bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.03191606647739394,
+              -0.015264276270113099
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.023400942137675185
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.028800540554701534,
+              -0.002672663341477678
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01584633853541373
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.20044361056666854,
+              -0.14223194748358858
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.1708652792990143
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.018134969649272466,
+              0.011607142857143374
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0033149171270716593
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.03809523809523807,
+              0.05747126436781613
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010989010989011061
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.009881912104253956,
+              0.03470904461001605
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.012170385395537497
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.017026106696935276,
+              0.02019059230808101
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.002336448598130758
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.03587470766193918,
+              0.00255151225014424
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01620370370370372
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.04379562043795616,
+              -0.0071428571428571175
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.024271844660194164
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.017045454545454586,
+              0.005540550938750435
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0056022408963586345
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.04207842765812127,
+              -0.0270472402782564
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03442932728646997
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260917,
+        "strata": {
+          "camera_displacement": 833,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 91,
+          "camera_obj_rel_dist_v2": 493,
+          "camera_obj_rel_dist_v3": 856,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      }
+    },
+    "target_permuted_seed20260812": {
+      "base_arm": "target_true",
+      "protocol": "target_legacy6042_parser_valid_subset_5598",
+      "bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.053362845349627125,
+              -0.036613158607631036
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.04472632440573732
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.027124216190261178,
+              0.0008353721551656625
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.013349225268176557
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.20109890109890116,
+              -0.13955726735138513
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.1697699890470975
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.04100029601722225,
+              -0.008313946475142555
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0241988950276244
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.0887141577060931,
+              0.023255813953488306
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.027272727272727226
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.029964735232878733,
+              0.02191260254093237
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.005084745762711895
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.02195815430485402,
+              0.012276021891751455
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.004807692307692291
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.038991664801969056,
+              0.0
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0185185185185186
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.037500837801608664,
+              0.0
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.016990291262135915
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.0029852980605951486,
+              0.021029444882333083
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.008403361344537785
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.045865504907757385,
+              -0.029795829448924234
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.037709896391567854
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260818,
+        "strata": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 110,
+          "camera_obj_rel_dist_v2": 590,
+          "camera_obj_rel_dist_v3": 1040,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      },
+      "revision5736_intersection_bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.027103763206462766,
+              -0.00808102900550877
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.017560609079551703
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.03457463892478197,
+              -0.007890365590114577
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.021368547418967376
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.20132013201320131,
+              -0.13861386138613863
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.1697699890470975
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.01892017840208664,
+              0.012365073305551269
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0034254143646407775
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.00901105651105653,
+              0.09677419354838701
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.04395604395604402
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              0.002091724005949927,
+              0.04684317718940934
+            ],
+            "direction_significant": "positive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.024340770791075106
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.023560080630704146,
+              0.013970139290279026
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.004672897196261738
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.03944544865914861,
+              0.0
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0185185185185186
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.036789810616164285,
+              0.0
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.016990291262135915
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.0029852980605952566,
+              0.021164021164021163
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.008403361344537785
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.04189554641417201,
+              -0.02501214725835479
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03323885109599434
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260918,
+        "strata": {
+          "camera_displacement": 833,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 91,
+          "camera_obj_rel_dist_v2": 493,
+          "camera_obj_rel_dist_v3": 856,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      }
+    },
+    "target_permuted_seed20260813": {
+      "base_arm": "target_true",
+      "protocol": "target_legacy6042_parser_valid_subset_5598",
+      "bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.054631370640725783,
+              -0.038655505486938545
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0464878678943883
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.031541537519611564,
+              -0.003613595192225032
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01740166865315862
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.208563201052624,
+              -0.15000000000000002
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.17853231106243161
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.0368553330417981,
+              -0.004275198540616755
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.02011049723756919
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.05128205128205132,
+              0.03260869565217395
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.009090909090909038
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.025046970898918566,
+              0.02170717930738961
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.0016949152542372614
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.016438422405341716,
+              0.018779587756182232
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.0009615384615384581
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.04645618923068169,
+              -0.0047167036625970615
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.02546296296296302
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.03539883291938951,
+              -0.005181012437910883
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01941747572815533
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.013472843185957983,
+              0.013297872340425456
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.0
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.0467060481362425,
+              -0.030887556809150125
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03854948195784169
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260819,
+        "strata": {
+          "camera_displacement": 839,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 110,
+          "camera_obj_rel_dist_v2": 590,
+          "camera_obj_rel_dist_v3": 1040,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      },
+      "revision5736_intersection_bootstrap_scene_cluster_primary": {
+        "cluster_count": 312,
+        "intervals": {
+          "primary_macro": {
+            "ci95": [
+              -0.03310753905007052,
+              -0.01879749868429132
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.02590490617502883
+          },
+          "qtype::camera_displacement": {
+            "ci95": [
+              -0.037241314308915155,
+              -0.010144316396018907
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.023529411764705577
+          },
+          "qtype::camera_movement_direction": {
+            "ci95": [
+              -0.20787746170678334,
+              -0.14928649835345775
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.17853231106243161
+          },
+          "qtype::camera_obj_abs_dist": {
+            "ci95": [
+              -0.022025411950701495,
+              0.008860343164608736
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.006408839779005526
+          },
+          "qtype::camera_obj_rel_dist_v1": {
+            "ci95": [
+              -0.02564102564102566,
+              0.053333333333333344
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.010989010989011061
+          },
+          "qtype::camera_obj_rel_dist_v2": {
+            "ci95": [
+              -0.005079221247657686,
+              0.037594400825071574
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.016227180527383367
+          },
+          "qtype::camera_obj_rel_dist_v3": {
+            "ci95": [
+              -0.02641657017006107,
+              0.01255743639921712
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.007009345794392607
+          },
+          "qtype::obj_obj_relative_pos_lr": {
+            "ci95": [
+              -0.04683932230679162,
+              -0.006284514496088425
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.02546296296296302
+          },
+          "qtype::obj_obj_relative_pos_nf": {
+            "ci95": [
+              -0.035443486848011456,
+              -0.005235260344756945
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.01941747572815533
+          },
+          "qtype::obj_obj_relative_pos_ud": {
+            "ci95": [
+              -0.013368983957219194,
+              0.013550135501355087
+            ],
+            "direction_significant": "inconclusive",
+            "equivalence_claim_allowed": false,
+            "observed_delta": 0.0
+          },
+          "row_weighted_mean": {
+            "ci95": [
+              -0.046516478832666096,
+              -0.031152909711914468
+            ],
+            "direction_significant": "negative",
+            "equivalence_claim_allowed": false,
+            "observed_delta": -0.03862433862433934
+          }
+        },
+        "method": "paired scene-cluster bootstrap",
+        "repetitions": 5000,
+        "resampling_unit": "scene_cluster",
+        "seed": 20260919,
+        "strata": {
+          "camera_displacement": 833,
+          "camera_movement_direction": 913,
+          "camera_obj_abs_dist": 905,
+          "camera_obj_rel_dist_v1": 91,
+          "camera_obj_rel_dist_v2": 493,
+          "camera_obj_rel_dist_v3": 856,
+          "obj_obj_relative_pos_lr": 432,
+          "obj_obj_relative_pos_nf": 412,
+          "obj_obj_relative_pos_ud": 357
+        }
+      }
+    }
+  }
+}
